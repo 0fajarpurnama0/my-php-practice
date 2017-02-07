@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="1" modulename="scorm" contextid="37">
+  <scorm id="1">
+    <name>Whole Course Outline</name>
+    <scormtype>local</scormtype>
+    <reference>Whole_Course_Outline.zip</reference>
+    <intro>&lt;p&gt;Explains the general overview.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <version>SCORM_1.3</version>
+    <maxgrade>100</maxgrade>
+    <grademethod>1</grademethod>
+    <whatgrade>0</whatgrade>
+    <maxattempt>0</maxattempt>
+    <forcecompleted>0</forcecompleted>
+    <forcenewattempt>0</forcenewattempt>
+    <lastattemptlock>0</lastattemptlock>
+    <displayattemptstatus>1</displayattemptstatus>
+    <displaycoursestructure>0</displaycoursestructure>
+    <updatefreq>0</updatefreq>
+    <sha1hash>ad772aaebb6286cbc5cfbd89b21e35a583e7b7e5</sha1hash>
+    <md5hash></md5hash>
+    <revision>1</revision>
+    <launch>3</launch>
+    <skipview>0</skipview>
+    <hidebrowse>0</hidebrowse>
+    <hidetoc>0</hidetoc>
+    <nav>1</nav>
+    <navpositionleft>-100</navpositionleft>
+    <navpositiontop>-100</navpositiontop>
+    <auto>0</auto>
+    <popup>0</popup>
+    <options></options>
+    <width>100</width>
+    <height>500</height>
+    <timeopen>0</timeopen>
+    <timeclose>0</timeclose>
+    <timemodified>0</timemodified>
+    <completionstatusrequired>$@NULL@$</completionstatusrequired>
+    <completionscorerequired>$@NULL@$</completionscorerequired>
+    <displayactivityname>1</displayactivityname>
+    <scoes>
+      <sco id="1">
+        <manifest>eXese_Outline555f22f721d55c0c771</manifest>
+        <organization></organization>
+        <parent>/</parent>
+        <identifier>eXese_Outline555f22f721d55c0c772</identifier>
+        <launch></launch>
+        <scormtype></scormtype>
+        <title>First Step In Popular Computer Subject</title>
+        <sortorder>1</sortorder>
+        <sco_datas>
+          <sco_data id="1">
+            <name>choice</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="2">
+            <name>choiceexit</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="3">
+            <name>flow</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="4">
+            <name>forwardonly</name>
+            <value>0</value>
+          </sco_data>
+        </sco_datas>
+        <seq_ruleconds>
+        </seq_ruleconds>
+        <seq_rolluprules>
+        </seq_rolluprules>
+        <seq_objectives>
+        </seq_objectives>
+        <sco_tracks>
+        </sco_tracks>
+      </sco>
+      <sco id="2">
+        <manifest>eXese_Outline555f22f721d55c0c771</manifest>
+        <organization>eXese_Outline555f22f721d55c0c772</organization>
+        <parent>eXese_Outline555f22f721d55c0c772</parent>
+        <identifier>ITEM-eXese_Outline555f22f721d55c0c773</identifier>
+        <launch></launch>
+        <scormtype>asset</scormtype>
+        <title>Taking The First Step General Overview</title>
+        <sortorder>2</sortorder>
+        <sco_datas>
+          <sco_data id="5">
+            <name>isvisible</name>
+            <value>true</value>
+          </sco_data>
+          <sco_data id="6">
+            <name>parameters</name>
+            <value></value>
+          </sco_data>
+          <sco_data id="7">
+            <name>choice</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="8">
+            <name>choiceexit</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="9">
+            <name>flow</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="10">
+            <name>forwardonly</name>
+            <value>0</value>
+          </sco_data>
+        </sco_datas>
+        <seq_ruleconds>
+        </seq_ruleconds>
+        <seq_rolluprules>
+        </seq_rolluprules>
+        <seq_objectives>
+        </seq_objectives>
+        <sco_tracks>
+        </sco_tracks>
+      </sco>
+      <sco id="3">
+        <manifest>eXese_Outline555f22f721d55c0c771</manifest>
+        <organization>eXese_Outline555f22f721d55c0c772</organization>
+        <parent>ITEM-eXese_Outline555f22f721d55c0c773</parent>
+        <identifier>ITEM-eXese_Outline555f22f721d55c0c774</identifier>
+        <launch>index.html</launch>
+        <scormtype>sco</scormtype>
+        <title>&lt;-</title>
+        <sortorder>3</sortorder>
+        <sco_datas>
+          <sco_data id="11">
+            <name>isvisible</name>
+            <value>true</value>
+          </sco_data>
+          <sco_data id="12">
+            <name>parameters</name>
+            <value></value>
+          </sco_data>
+        </sco_datas>
+        <seq_ruleconds>
+        </seq_ruleconds>
+        <seq_rolluprules>
+        </seq_rolluprules>
+        <seq_objectives>
+        </seq_objectives>
+        <sco_tracks>
+        </sco_tracks>
+      </sco>
+      <sco id="4">
+        <manifest>eXese_Outline555f22f721d55c0c771</manifest>
+        <organization>eXese_Outline555f22f721d55c0c772</organization>
+        <parent>ITEM-eXese_Outline555f22f721d55c0c773</parent>
+        <identifier>ITEM-eXese_Outline555f22f721d55c0c776</identifier>
+        <launch>philosophy.html</launch>
+        <scormtype>sco</scormtype>
+        <title>Philosophy</title>
+        <sortorder>4</sortorder>
+        <sco_datas>
+          <sco_data id="13">
+            <name>isvisible</name>
+            <value>true</value>
+          </sco_data>
+          <sco_data id="14">
+            <name>parameters</name>
+            <value></value>
+          </sco_data>
+        </sco_datas>
+        <seq_ruleconds>
+        </seq_ruleconds>
+        <seq_rolluprules>
+        </seq_rolluprules>
+        <seq_objectives>
+        </seq_objectives>
+        <sco_tracks>
+        </sco_tracks>
+      </sco>
+      <sco id="5">
+        <manifest>eXese_Outline555f22f721d55c0c771</manifest>
+        <organization>eXese_Outline555f22f721d55c0c772</organization>
+        <parent>ITEM-eXese_Outline555f22f721d55c0c773</parent>
+        <identifier>ITEM-eXese_Outline555f22f721d55c0c778</identifier>
+        <launch>technical_points.html</launch>
+        <scormtype>sco</scormtype>
+        <title>Technical Points</title>
+        <sortorder>5</sortorder>
+        <sco_datas>
+          <sco_data id="15">
+            <name>isvisible</name>
+            <value>true</value>
+          </sco_data>
+          <sco_data id="16">
+            <name>parameters</name>
+            <value></value>
+          </sco_data>
+        </sco_datas>
+        <seq_ruleconds>
+        </seq_ruleconds>
+        <seq_rolluprules>
+        </seq_rolluprules>
+        <seq_objectives>
+        </seq_objectives>
+        <sco_tracks>
+        </sco_tracks>
+      </sco>
+      <sco id="6">
+        <manifest>eXese_Outline555f22f721d55c0c771</manifest>
+        <organization>eXese_Outline555f22f721d55c0c772</organization>
+        <parent>ITEM-eXese_Outline555f22f721d55c0c773</parent>
+        <identifier>ITEM-eXese_Outline555f22f721d55c0c77a</identifier>
+        <launch></launch>
+        <scormtype>asset</scormtype>
+        <title>Recommended Preparation</title>
+        <sortorder>6</sortorder>
+        <sco_datas>
+          <sco_data id="17">
+            <name>isvisible</name>
+            <value>true</value>
+          </sco_data>
+          <sco_data id="18">
+            <name>parameters</name>
+            <value></value>
+          </sco_data>
+          <sco_data id="19">
+            <name>choice</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="20">
+            <name>choiceexit</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="21">
+            <name>flow</name>
+            <value>1</value>
+          </sco_data>
+          <sco_data id="22">
+            <name>forwardonly</name>
+            <value>0</value>
+          </sco_data>
+        </sco_datas>
+        <seq_ruleconds>
+        </seq_ruleconds>
+        <seq_rolluprules>
+        </seq_rolluprules>
+        <seq_objectives>
+        </seq_objectives>
+        <sco_tracks>
+        </sco_tracks>
+      </sco>
+      <sco id="7">
+        <manifest>eXese_Outline555f22f721d55c0c771</manifest>
+        <organization>eXese_Outline555f22f721d55c0c772</organization>
+        <parent>ITEM-eXese_Outline555f22f721d55c0c77a</parent>
+        <identifier>ITEM-eXese_Outline555f22f721d55c0c77b</identifier>
+        <launch>recommended_preparation.html</launch>
+        <scormtype>sco</scormtype>
+        <title>&lt;-</title>
+        <sortorder>7</sortorder>
+        <sco_datas>
+          <sco_data id="23">
+            <name>isvisible</name>
+            <value>true</value>
+          </sco_data>
+          <sco_data id="24">
+            <name>parameters</name>
+            <value></value>
+          </sco_data>
+        </sco_datas>
+        <seq_ruleconds>
+        </seq_ruleconds>
+        <seq_rolluprules>
+        </seq_rolluprules>
+        <seq_objectives>
+        </seq_objectives>
+        <sco_tracks>
+        </sco_tracks>
+      </sco>
+      <sco id="8">
+        <manifest>eXese_Outline555f22f721d55c0c771</manifest>
+        <organization>eXese_Outline555f22f721d55c0c772</organization>
+        <parent>ITEM-eXese_Outline555f22f721d55c0c77a</parent>
+        <identifier>ITEM-eXese_Outline555f22f721d55c0c77d</identifier>
+        <launch>survey_before_tackling.html</launch>
+        <scormtype>sco</scormtype>
+        <title>Survey Before Tackling</title>
+        <sortorder>8</sortorder>
+        <sco_datas>
+          <sco_data id="25">
+            <name>isvisible</name>
+            <value>true</value>
+          </sco_data>
+          <sco_data id="26">
+            <name>parameters</name>
+            <value></value>
+          </sco_data>
+        </sco_datas>
+        <seq_ruleconds>
+        </seq_ruleconds>
+        <seq_rolluprules>
+        </seq_rolluprules>
+        <seq_objectives>
+        </seq_objectives>
+        <sco_tracks>
+        </sco_tracks>
+      </sco>
+    </scoes>
+  </scorm>
+</activity>

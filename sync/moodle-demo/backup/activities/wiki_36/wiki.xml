@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="4" moduleid="36" modulename="wiki" contextid="79">
+  <wiki id="4">
+    <name>Having a Taste of Being a Hacker Wiki</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <timecreated>0</timecreated>
+    <timemodified>1449225811</timemodified>
+    <firstpagetitle>Front Page</firstpagetitle>
+    <wikimode>collaborative</wikimode>
+    <defaultformat>html</defaultformat>
+    <forceformat>0</forceformat>
+    <editbegin>0</editbegin>
+    <editend>0</editend>
+    <subwikis>
+      <subwiki id="4">
+        <groupid>0</groupid>
+        <userid>0</userid>
+        <pages>
+          <page id="4">
+            <title>Front Page</title>
+            <cachedcontent>&lt;p&gt;Hacker Evolution&lt;br&gt;&lt;/p&gt;
+</cachedcontent>
+            <timecreated>1449766159</timecreated>
+            <timemodified>1449766172</timemodified>
+            <timerendered>1449766172</timerendered>
+            <userid>2</userid>
+            <pageviews>1</pageviews>
+            <readonly>0</readonly>
+            <versions>
+              <version id="9">
+                <content></content>
+                <contentformat>html</contentformat>
+                <version>0</version>
+                <timecreated>1449766159</timecreated>
+                <userid>2</userid>
+              </version>
+              <version id="10">
+                <content>&lt;p&gt;Hacker Evolution&lt;br&gt;&lt;/p&gt;</content>
+                <contentformat>html</contentformat>
+                <version>1</version>
+                <timecreated>1449766172</timecreated>
+                <userid>2</userid>
+              </version>
+            </versions>
+            <tags>
+            </tags>
+          </page>
+        </pages>
+        <synonyms>
+        </synonyms>
+        <links>
+        </links>
+      </subwiki>
+    </subwikis>
+  </wiki>
+</activity>

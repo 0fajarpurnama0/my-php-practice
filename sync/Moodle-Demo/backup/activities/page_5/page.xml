@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="5" modulename="page" contextid="41">
+  <page id="1">
+    <name>Course Outline</name>
+    <intro>Covers: (1) Definition, (2) Applications, (3) Popular Programming Languages.&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <content>&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Course
+Overview and Introduction&lt;/b&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;This
+section would like to introduce computer programming to starters, and
+for those who would like to dive into the world of programming. No
+advance topic will be covered here, instead focuses on wide of simple
+and easy programmings. If you ever saw a program, or someone programming and it is hard, it's because you have never started in programming. It happens to me too, when someone just suddenly shows his program which hurts my eyes. I started learning programming which only contains 5 lines, then little by little increase the amount that I have wrote. The program that used to give me headache on Figure 1, now it's simple program that I could write.&lt;/p&gt;&lt;p style="margin-bottom: 0in; line-height: 150%; text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Practice%20PHP%20first.png" alt="A simple login program written in PHP" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="567" width="497"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="margin-bottom: 0in; line-height: 150%; text-align: center;"&gt;Figure 1. My practice program in PHP&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;br&gt;
+
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Learning
+Objective&lt;/b&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;This
+topic would like to cover only the simple part of the technical in
+programming. We can simply express in Figure 2. 
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;It
+is hoped that you are able to write a simple program and it works. &lt;br&gt;&lt;/li&gt;&lt;li&gt;No
+need to do analysis of the algorithms (efficiency, structures, etc). &lt;br&gt;&lt;/li&gt;&lt;li&gt;You are only expected to solve mini problems by making a short
+script.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Ultimately at the end of this course you will be familiar
+with programming and easily adapt with different programming
+languages.&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/mult_langs.gif" alt="I Speak Several Language &gt;&gt; C, C++, VB, Python, Ruby, .........." style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="259" width="495"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%; text-align: center;"&gt;Figure 2. I speak several language poster&lt;br&gt;
+
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Assessment
+and Measurement&lt;/b&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;It's
+up to you of how to do this course but it is recommended to do the
+following:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Read
+the contents. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Do the quizzes to enrich your understanding of the content. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Submit assignments whether they are essays or scripts. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Try your
+programs in virtual programming lab (VPL). &lt;br&gt;&lt;/li&gt;&lt;li&gt;We never meant to place
+difficult materials so aim for perfect scores before proceeding to
+the next material since attempting a grade is unlimited. 
+&lt;/li&gt;&lt;/ol&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;Once
+again the top instructions are just our recommendation, do the course
+as you wish.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;If
+your overall score is below 50% you should complete more materials or
+aim for higher grade. &lt;br&gt;&lt;/li&gt;&lt;li&gt;If it's above you are ready to dive into
+computer programming world. &lt;br&gt;&lt;/li&gt;&lt;li&gt;If you got 100% then you should have no
+problem in adapting or learning new programming languages.&lt;/li&gt;&lt;/ul&gt;</content>
+    <contentformat>1</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:12:"printheading";s:1:"1";s:10:"printintro";s:1:"1";}</displayoptions>
+    <revision>8</revision>
+    <timemodified>1449228273</timemodified>
+  </page>
+</activity>

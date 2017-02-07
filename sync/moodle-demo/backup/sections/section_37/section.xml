@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="37">
+  <number>1</number>
+  <name>Starting Computer Programming</name>
+  <summary>This section would like to introduce computer programming to starters, and for those who would like to dive into the world of programming. No advance topic will be covered here, instead focuses on wide of simple and easy programmings. We understand that you might not master the basics of programming after reading all the materials, but we expect you to have ideas of what materials you have read when you want to write a program. The author for example knows that he/she needs to use "if else" and "for" in his/her simple login program, but still searches on the Internet for the correct syntax in using those functions. Each programming language like Pascal, C, C++, Python,&amp;nbsp; and Ruby had their own form of syntax but the pattern is similar, more ever the idea is still the same.&lt;br&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>16,17,49,23,24,26,27,28,29,41,20,21,40</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+</section>

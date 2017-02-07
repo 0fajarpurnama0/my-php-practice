@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="43" modulename="wiki" contextid="79">
+  <wiki id="3">
+    <name>Having a Taste of Being a Hacker Wiki</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <timecreated>0</timecreated>
+    <timemodified>1449225811</timemodified>
+    <firstpagetitle>Front Page</firstpagetitle>
+    <wikimode>collaborative</wikimode>
+    <defaultformat>html</defaultformat>
+    <forceformat>0</forceformat>
+    <editbegin>0</editbegin>
+    <editend>0</editend>
+    <subwikis>
+    </subwikis>
+  </wiki>
+</activity>

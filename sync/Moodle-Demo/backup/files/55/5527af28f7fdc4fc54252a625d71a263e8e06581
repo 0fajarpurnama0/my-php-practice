@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Technical Points | First Step In Popular Computer Subject </title>
+<meta http-equiv="content-language" content="en" />
+<meta name="author" content="Fajar Purnama" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Show",hide:"Hide",showFeedback:"Show Feedback",hideFeedback:"Hide Feedback",correct:"Correct",incorrect:"Incorrect",menu:"Menu"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Technical Points</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id20">
+<div class="iDevice emphasis0">
+<div id="ta20_85" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id21">
+<div class="iDevice emphasis0">
+<div id="ta21_85" class="block iDevice_content">
+<p><strong>Activities and Resources Used:</strong></p>
+<p><img src="icon.svg" width="24" height="24" alt="Page Icon" />: This is a page, here we used it to provide course outlines.</p>
+<p><img src="Forum_and_Discussion.svg" width="24" height="24" alt="Forum and Discussion" />: This was used to make forums and discussions, was also used for open discussion and survey based assignments.</p>
+<p><img src="Assignment.svg" width="24" height="24" alt="Assignment" />: This was used to make a one way submit assignments, and give grades of it to students. Simple assignments are given after every topic.</p>
+<p><img src="Lesson.svg" width="24" height="24" alt="Lesson" />: This lesson was used to give materials and short exercise at the end. Although the page or file resource is enough, we found it more preferable using this.</p>
+<p><img src="Quiz.svg" width="24" height="24" alt="Quiz" />: We did say we prefer the short exercises be included into the lesson resource, but for large exercises for example exams this quiz resource is better.</p>
+<p><img src="Workshop.svg" width="24" height="24" alt="Workshop" />: Working on a simple project viewed by peers is expected and the end of each topics using this workshop resource.</p>
+<p><img src="Glossary.svg" width="24" height="24" alt="Glossary" />: Any words or statements that students don't understand may be put here, others who knows insert the meaning.</p>
+<p><img src="Wiki.svg" width="24" height="24" alt="Wiki" />: This wiki can contain any kind of information but we hope to fill it with links and resources for post topics (what's next after completing the topic).</p>
+<p><img src="Chat.svg" width="24" height="24" alt="Chat" />: A real time chat room.</p>
+<p><img src="Survey.svg" width="24" height="24" alt="Survey" />: We students would take survey to give their opinions of this course.</p>
+<p></p>
+<p></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id22">
+<div class="iDevice emphasis0">
+<div id="ta22_85" class="block iDevice_content">
+<p><strong>Types of Materials</strong></p>
+<p></p>
+<p>For now the materials consists of texts, image, animated gif, video, and formats such as pdf. Since the disk space is still limited, it's suggested to use external resources for example Flickr for images and animated gifs, Youtube for videos, and Dropbox for files. All materials are common creative license free to acquire, reproduce, and distribute with requirement to give acknowledgement to the authors. Below are examples:</p>
+<p><iframe width="425" height="350" style="display: block; margin-left: auto; margin-right: auto;" src="//www.youtube.com/embed/yC2zob_rLSA" frameborder="0"></iframe></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper GalleryIdevice em_iDevice" id="id23">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Image Gallery</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<ul class="exeImageGallery" id="exeImageGallery23">
+<li><a title="Sample animated GIF" href="XP%20SMB%20BO.gif"><img alt="Sample animated GIF" width="128" height="128" src="XP%20SMB%20BOThumbnail.png" /><span class="tit">Sample animated GIF</span></a></li>
+<li><a title="Sample Image" href="Heap_Overflow_Script.png"><img alt="Sample Image" width="128" height="128" src="Heap_Overflow_ScriptThumbnail.png" /><span class="tit">Sample Image</span></a></li>
+</ul>
+<script type="text/javascript">$exe.imageGallery.init("exeImageGallery23");</script>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FileAttachIdeviceInc em_iDevice" id="id25">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header" style="background-image:url(icon_assignment.gif)"><h2 class="iDeviceTitle">File Attachments</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta25_82" class="block iDevice_content">
+<p>This is a sample pdf.</p>
+</div>
+<ul class='exeFileList'><li><a href='Syngress.The.Basics.of.Hacking.and.Penetration.Testing.Aug.2011.pdf' target='_blank'>Syngress.The.Basics.of.Hacking.and.Penetration.Testing.Aug.2011.pdf<span> (New Window)</span></a></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+<p align="center">Licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p></div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

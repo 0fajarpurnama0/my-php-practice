@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="4" moduleid="26" modulename="lesson" contextid="69">
+  <lesson id="4">
+    <course>4</course>
+    <name>3. Conditional and Functions</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449148532</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="10">
+        <prevpageid>0</prevpageid>
+        <nextpageid>11</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449152343</timecreated>
+        <timemodified>1449764253</timemodified>
+        <title>3.1 In Pascal</title>
+        <contents>&lt;p&gt;The following is the simplest conditional program. If the input is "John" it will output "Hello John", if not it will output "Wrong Username". We personally think that no need for more explanation, just try the programs. This course is designed simple, explanations are for more advance materials. &lt;b&gt;In Pascal ":=" gives a value to a variable while "=" compares whether "a" is equal to "b". It will return TRUE if correct and FALSE if incorrect.&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;program simple_login_1;&lt;br&gt;&lt;br&gt;var &lt;br&gt;&amp;nbsp;username: string;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;write('username: '); readln(username);&lt;br&gt;&lt;br&gt;&amp;nbsp;if username = 'John' then&lt;br&gt;&amp;nbsp; writeln('Hello ', username)&lt;br&gt;&amp;nbsp;else&lt;br&gt;&amp;nbsp; writeln('Wrong username');&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;writeln('Program terminate'); &lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;Next program if we want more conditions, say that Mary is included as a username:&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;program simple_login_2;&lt;br&gt;&lt;br&gt;var &lt;br&gt;&amp;nbsp;username: string;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;write('username: '); readln(username);&lt;br&gt;&lt;br&gt;&amp;nbsp;if username = 'John' then&lt;br&gt;&amp;nbsp; writeln('Hello ', username)&lt;br&gt;&amp;nbsp;else if username = 'Mary' then&lt;br&gt;&amp;nbsp; writeln('Hello ', username)&lt;br&gt;&amp;nbsp;else&lt;br&gt;&amp;nbsp; writeln('Wrong username');&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;writeln('Program terminate'); &lt;br&gt;end.&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;We can also use "or" for the above program:&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;program simple_login_2;&lt;br&gt;&lt;br&gt;var &lt;br&gt;&amp;nbsp;username, password: string;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;write('username: '); readln(username);&lt;br&gt;&lt;br&gt;&amp;nbsp;if (username = 'John') or (username = 'Mary') then&lt;br&gt;&amp;nbsp; writeln('Hello ', username)&lt;br&gt;&amp;nbsp;else&lt;br&gt;&amp;nbsp; writeln('Wrong username');&lt;br&gt;&amp;nbsp; &lt;br&gt;&amp;nbsp;writeln('Program terminate'); &lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;If we want to include password as well:&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;program simple_login_4;&lt;br&gt;&lt;br&gt;var &lt;br&gt;&amp;nbsp;username, password: string;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;write('username: '); readln(username);&lt;br&gt;&amp;nbsp;write('password: '); readln(password);&lt;br&gt;&lt;br&gt;&amp;nbsp;if (username = 'John') and (password = 'Doe') then&lt;br&gt;&amp;nbsp; writeln('Hello ', username,' ', password)&lt;br&gt;&amp;nbsp;else if (username = 'Mary') and (password = 'Jane') then&lt;br&gt;&amp;nbsp; writeln('Hello ', username,' ', password)&lt;br&gt;&amp;nbsp;else if (username = 'Fajar') and (password = 'Purnama') then&lt;br&gt;&amp;nbsp; writeln('Hello ', username,' ', password)&lt;br&gt;&amp;nbsp;else&lt;br&gt;&amp;nbsp; writeln('Wrong username or password!');&lt;br&gt;&amp;nbsp; &lt;br&gt;&amp;nbsp;writeln('Program terminate!'); &lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;Say this program is used on many pages or included in other programs. Should we paste the whole code? we can, but we prefer to refer this program as a procedure. There's another famous term called function, similar with only difference it returns a value.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;program simple_login_5;&lt;br&gt;&lt;br&gt;var &lt;br&gt;&amp;nbsp;username, password: string;&lt;br&gt;&lt;br&gt;procedure simple_login(username:string; password:string);&lt;br&gt;&amp;nbsp;begin&lt;br&gt;&amp;nbsp; if (username = 'John') and (password = 'Doe') then&lt;br&gt;&amp;nbsp;&amp;nbsp; writeln('Hello ', username,' ', password)&lt;br&gt;&amp;nbsp; else if (username = 'Mary') and (password = 'Jane') then&lt;br&gt;&amp;nbsp;&amp;nbsp; writeln('Hello ', username,' ', password)&lt;br&gt;&amp;nbsp; else if (username = 'Fajar') and (password = 'Purnama') then&lt;br&gt;&amp;nbsp;&amp;nbsp; writeln('Hello ', username,' ', password)&lt;br&gt;&amp;nbsp; else&lt;br&gt;&amp;nbsp;&amp;nbsp; writeln('Wrong username or password!');&lt;br&gt;&amp;nbsp; &lt;br&gt;&amp;nbsp; writeln('Program terminate!'); &lt;br&gt;&amp;nbsp;end;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;write('username: '); readln(username);&lt;br&gt;&amp;nbsp;write('password: '); readln(password);&lt;br&gt;&amp;nbsp;simple_login(username, password);&lt;br&gt;end.&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="20">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449152343</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>3.2 in C</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="21">
+            <jumpto>36</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449152343</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Exercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="11">
+        <prevpageid>10</prevpageid>
+        <nextpageid>36</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449157264</timecreated>
+        <timemodified>1449764271</timemodified>
+        <title>3.2 In C</title>
+        <contents>&lt;p&gt;&lt;/p&gt;Doing the simple login on C is not as simple as Pascal because of the string factor, but first we want to show that the concept of if else remains the same. The program states if the user input "1" it will say "the value is 1", if not it will say "the value is not 1". &lt;i&gt;At the end of the program we use the&amp;nbsp; &lt;/i&gt;&lt;i&gt;function strncmp to compare strings since the usual method doesn't work. If the compare string is the same "string1 == test" then it will output 0. The final input in strncmp "20" is the max number of character, you may change it as you want.&lt;br&gt;&lt;/i&gt;&lt;p&gt;&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;int a,b;&lt;br&gt;&amp;nbsp;printf("input a value: "); scanf("%d", &amp;amp;a);&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;if (a == 1) {&lt;br&gt;&amp;nbsp;printf("a is equal 1\n");&lt;br&gt;&amp;nbsp;} else {&lt;br&gt;&amp;nbsp;printf("a is not equal to 1\n");&lt;br&gt;&amp;nbsp;} &lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;char string1[] = "test";&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;b = strncmp(string1, "test", 20);&lt;br&gt;&amp;nbsp;printf("b is %d\n", b);&lt;br&gt;&amp;nbsp;printf("is b == 0? %d(yes)", b == 0);&lt;br&gt;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The following is the simplest 
+conditional program. If the input is "John" it will output "Hello John",
+ if not it will output "Wrong Username". We personally think that no 
+need for more explanation, just try the programs. This course is 
+designed simple, explanations are for more advance materials. &lt;b&gt;In C "=" gives a value to a variable while "==" compares whether "a" is equal to "b". It will return "1" (TRUE) if correct and "0" (FALSE) if incorrect.&lt;/b&gt; &lt;i&gt;C seems tempting at first, but on our experience, if we learn C, we can easily adapt to different programming languages.&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;char username[20];&lt;br&gt;&amp;nbsp;printf("Username: "); scanf("%s", username);&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;if (strncmp(username, "John", 20) == 0) {&lt;br&gt;&amp;nbsp; printf("Hello %s.\n", username);&lt;br&gt;&amp;nbsp;} else {&lt;br&gt;&amp;nbsp; printf("Wrong username!\n");&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;Next program if we want more conditions, say that Mary is included as a username:&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;char username[20];&lt;br&gt;&amp;nbsp;printf("Username: "); scanf("%s", username);&lt;br&gt;&lt;br&gt;&amp;nbsp;if (strncmp(username, "John", 20) == 0) {&lt;br&gt;&amp;nbsp; printf("Hello %s.\n", username);&lt;br&gt;&amp;nbsp;} else if (strncmp(username, "Mary", 20) == 0) {&lt;br&gt;&amp;nbsp; printf("Hello %s.\n", username);&lt;br&gt;&amp;nbsp;} else {&lt;br&gt;&amp;nbsp; printf("Wrong username!\n");&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;We can also use "or"/"||" for the above program:&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;char username[20];&lt;br&gt;&amp;nbsp;printf("Username: "); scanf("%s", username);&lt;br&gt;&lt;br&gt;&amp;nbsp;if ((strncmp(username, "John", 20) ) == 0 || (strncmp(username, "Mary", 20)) == 0) {&lt;br&gt;&amp;nbsp; printf("Hello %s.\n", username);&lt;br&gt;&amp;nbsp;} else {&lt;br&gt;&amp;nbsp; printf("Wrong username!\n");&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;If we want to include password as well:&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;char username[20], password[20];&lt;br&gt;&lt;br&gt;&amp;nbsp;printf("Username: "); scanf("%s", username);&lt;br&gt;&amp;nbsp;printf("Password: "); scanf("%s", password);&lt;br&gt;&lt;br&gt;&amp;nbsp;if ((strncmp(username, "John", 20) == 0) &amp;amp;&amp;amp; (strncmp(password, "Doe", 20)) == 0) {&lt;br&gt;&amp;nbsp; printf("Hello %s %s.\n", username, password);&lt;br&gt;&amp;nbsp;} else if ((strncmp(username, "Mary", 20) == 0) &amp;amp;&amp;amp; (strncmp(password, "Jane", 20) == 0)) {&lt;br&gt;&amp;nbsp; printf("Hello %s %s.\n", username, password);&lt;br&gt;&amp;nbsp;} else if ((strncmp(username, "Fajar", 20) == 0) &amp;amp;&amp;amp; (strncmp(password, "Purnama", 20)) == 0) {&lt;br&gt;&amp;nbsp; printf("Hello %s %s.\n", username, password);&lt;br&gt;&amp;nbsp;} else {&lt;br&gt;&amp;nbsp; printf("Wrong username or password!\n");&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;Say this program is used on many pages or included in other 
+programs. Should we paste the whole code? we can, but we prefer to refer
+ this program as a void. There's another famous term called 
+function, similar with only difference it returns a value.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;void login(char username[20], char password[20]) {&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;if ((strncmp(username, "John", 20) == 0) &amp;amp;&amp;amp; (strncmp(password, "Doe", 20)) == 0) {&lt;br&gt;&amp;nbsp; printf("Hello %s %s.\n", username, password);&lt;br&gt;&amp;nbsp;} else if ((strncmp(username, "Mary", 20) == 0) &amp;amp;&amp;amp; (strncmp(password, "Jane", 20) == 0)) {&lt;br&gt;&amp;nbsp; printf("Hello %s %s.\n", username, password);&lt;br&gt;&amp;nbsp;} else if ((strncmp(username, "Fajar", 20) == 0) &amp;amp;&amp;amp; (strncmp(password, "Purnama", 20)) == 0) {&lt;br&gt;&amp;nbsp; printf("Hello %s %s.\n", username, password);&lt;br&gt;&amp;nbsp;} else {&lt;br&gt;&amp;nbsp; printf("Wrong username or password!\n");&lt;br&gt;&amp;nbsp;}&lt;br&gt;}&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;char username[20], password[20];&lt;br&gt;&lt;br&gt;&amp;nbsp;printf("Username: "); scanf("%s", username);&lt;br&gt;&amp;nbsp;printf("Password: "); scanf("%s", password);&lt;br&gt;&amp;nbsp;login(username, password);&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="22">
+            <jumpto>10</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449157264</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>3.1 In Pascal</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="23">
+            <jumpto>36</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449157264</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Excercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="36">
+        <prevpageid>11</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>5</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449764169</timecreated>
+        <timemodified>1449764230</timemodified>
+        <title>Common Conditional</title>
+        <contents>&lt;p&gt;Match them in order:&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="87">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449764169</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Correct&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="88">
+            <jumpto>10</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449764169</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Try again!&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="89">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449764169</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;1.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>If</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="90">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449764169</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;2.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>[condition]</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="91">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449764169</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;3.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>[true outcome]</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="92">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449764169</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;4. &lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>else [false outcome]</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

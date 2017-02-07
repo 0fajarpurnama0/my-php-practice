@@ -1,0 +1,18 @@
+<?php
+
+global $config;
+
+$config['mysql_server'] = 'localhost';
+$config['mysql_user'] = 'root';
+$config['mysql_pass'] = '<0666Darkness6660>';
+$config['mysql_dbname'] = 'moodle19experiment';
+$config['moodledata'] = '/var/www/moodledata-19-experiment';
+$config['moodlewwwroot'] = 'http://127.0.0.1/moodle-19-experiment';
+$config['mail_send']=0;
+$config['mail_username']='fajar';
+$config['mail_password']='Dvd4.7gB';
+$config['mail_smtp_host']='mail.st.cs.kumamoto-u.ac.jp';
+$config['mail_smtp_port']='993';
+$config['mail_auth']= true;
+$config['mail_addresses'][]='fajar@st.cs.kumamoto-u.ac.jp';
+?>

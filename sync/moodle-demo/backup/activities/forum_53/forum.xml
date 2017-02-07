@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11" moduleid="53" modulename="forum" contextid="96">
+  <forum id="11">
+    <type>general</type>
+    <name>Having a Taste of Being a Hacker Discussion</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <assessed>1</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>100</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1449852454</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="3">
+        <name>Tell us about yourself</name>
+        <firstpost>3</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1449852613</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="3">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1449852613</created>
+            <modified>1449852613</modified>
+            <mailed>0</mailed>
+            <subject>Tell us about yourself</subject>
+            <message>&lt;ul&gt;&lt;li&gt;Why are you interested or following this course?&lt;br&gt;&lt;/li&gt;&lt;li&gt;Are you interested being a penetration tester or a hacker?&lt;/li&gt;&lt;li&gt;Do you have experiences in this topic?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+          <discussion_sub id="3">
+            <userid>2</userid>
+            <preference>1449852613</preference>
+          </discussion_sub>
+        </discussion_subs>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <digests>
+    </digests>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

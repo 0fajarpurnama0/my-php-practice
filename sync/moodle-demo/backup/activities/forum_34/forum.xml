@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="8" moduleid="34" modulename="forum" contextid="77">
+  <forum id="8">
+    <type>general</type>
+    <name>1. Are you a hacker, pentester, or either? --- Assignment</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>100</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1449225743</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="4">
+        <name>Do you want to hack or pentest?</name>
+        <firstpost>4</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1450069638</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="4">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1450069638</created>
+            <modified>1450069638</modified>
+            <mailed>0</mailed>
+            <subject>Do you want to hack or pentest?</subject>
+            <message>&lt;p&gt;&lt;ol&gt;&lt;li&gt;Tell us you interest and experience in hacking and/or penetration testing.&lt;/li&gt;&lt;li&gt;Tell us your experience if you're a hacker (optional).&lt;/li&gt;&lt;li&gt;Where are you going to this experiment? or tell us about your hacking lab.&lt;/li&gt;&lt;li&gt;If you don't have permission, don't have you own lab, and want to perform save experiment tell us your plan in conducting legal and save experiment (how about VM)?&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+          <discussion_sub id="4">
+            <userid>2</userid>
+            <preference>1450069638</preference>
+          </discussion_sub>
+        </discussion_subs>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <digests>
+    </digests>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

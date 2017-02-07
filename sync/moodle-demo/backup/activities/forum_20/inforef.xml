@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inforef>
+  <userref>
+    <user>
+      <id>2</id>
+    </user>
+  </userref>
+  <scaleref>
+    <scale>
+      <id>1</id>
+    </scale>
+  </scaleref>
+  <grade_itemref>
+    <grade_item>
+      <id>12</id>
+    </grade_item>
+  </grade_itemref>
+</inforef>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11" moduleid="54" modulename="lesson" contextid="97">
+  <lesson id="11">
+    <course>4</course>
+    <name>2. Information Gathering</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449852678</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="42">
+        <prevpageid>0</prevpageid>
+        <nextpageid>44</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1450066997</timecreated>
+        <timemodified>0</timemodified>
+        <title>2.1 Preparation</title>
+        <contents>&lt;p&gt;Since there are lots of factors to take into account like the operating system we could use, tools, targets, practice targets on VM, anonymity, etc, This page will be updated later.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="103">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450066997</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="44">
+        <prevpageid>42</prevpageid>
+        <nextpageid>45</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1450070303</timecreated>
+        <timemodified>1450172535</timemodified>
+        <title>2.2 Conventional Way</title>
+        <contents>The information you need might be what kind of company, corporation, institution, or organization your target is, or just a group, maybe just personal. Anyway you maybe needing information like their contact info, organization structure, or just their products. This kind of information can be retrieved the conventional way:&lt;p&gt;&lt;ul&gt;&lt;li&gt;Newspapers.&lt;/li&gt;&lt;li&gt;Radio.&lt;/li&gt;&lt;li&gt;TV.&lt;/li&gt;&lt;li&gt;Magazines.&lt;/li&gt;&lt;li&gt;Books.&lt;/li&gt;&lt;li&gt;Show.&lt;/li&gt;&lt;li&gt;Conversation.&lt;/li&gt;&lt;li&gt;Advertisement.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="106">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450070303</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="119">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450070303</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="45">
+        <prevpageid>44</prevpageid>
+        <nextpageid>46</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1450070356</timecreated>
+        <timemodified>1450172561</timemodified>
+        <title>2.3 Using Tools</title>
+        <contents>&lt;p&gt;If you need their sites, domains, IP address, email address, are better using tools. First off we need to find their website, surf The Internet using a web browser and use search engines such as Google, Yahoo, MSN.&lt;/p&gt;&lt;p&gt;&lt;b&gt;2.3.1 What Most Don't Know in Using Google&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Turn on your computer &amp;gt;&amp;gt;&amp;gt; connect to The Internet &amp;gt;&amp;gt;&amp;gt; fire up your web browser &amp;gt;&amp;gt;&amp;gt; type www.google.com, that's how everyone uses it, but did you know that there are more than just that? See Figure 2.1.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;u&gt;site:domain term(s) to search&lt;/u&gt; example:&amp;nbsp;&lt;u&gt;site:microsoft.com bill gates&lt;/u&gt; (will return information about bill gates from microsoft.com.&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;allintitle:term&lt;/u&gt; example: &lt;u&gt;allintitle:index of&lt;/u&gt;&amp;nbsp;will return any web page that contains the key word index of.&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;inurl:term&lt;/u&gt; example: &lt;u&gt;inurl:admin&lt;/u&gt; will return any url that has the word admin.&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;cache:mangareader.net&lt;/u&gt; will pull mangareader.net from Google cache (I cannot access through normal means).&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;filetype:log&lt;/u&gt; will find log file type,&amp;nbsp;&lt;u&gt;filetype:pdf&lt;/u&gt; will file pdf file type.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;img src="@@PLUGINFILE@@/Google-Advance-Search.gif" alt="GIF of terms above." width="1366" height="768" style="vertical-align:middle; margin: 0 .5em;" class="img-responsive"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 2.1 Trying Google The Different Way&lt;/p&gt;&lt;p style="text-align: left;"&gt;&lt;b&gt;2.2 Ping&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;From here on as possible we tried to use torsocks on each commands so that it will go to the tor network and render us more anonymous. Normally just do the commands without the &lt;i&gt;torsocks &lt;/i&gt;command if you don't need to be anonymous..&amp;nbsp;Ping is a program in command line to check host alive, latency (time for a packet to reach and return), TTL, and other parameters depending the version of the program and the OS used. Figure 2.2 is an example of ping command.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Ping%20metasploit.com.png" alt="ping www.metasploit.com : reply ...ms" width="582" height="225" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 2.2 Ping metasploit.com in Linux terminal&lt;/p&gt;&lt;p style="text-align: left;"&gt;&lt;b&gt;2.3 Who is, Dig, Host, Nslookup&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;Dig, Host and nslookup can be used to retrieve an IP address of a website, some version is able to do viceversa. Figure 2.3 is the output of dig, host, and nslookup on metasploit.com, below that is the output of whois with much information.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Dig%20Host%20Nslookup.png" alt="returns IP address" width="1226" height="561" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 2.3 Dig, host, and nslookup on metasploit.com&lt;/p&gt;&lt;p style="text-align: left;"&gt;#####################################################################################&lt;/p&gt;&lt;p&gt;root@kali:/home/fajarpurnama# torsocks whois metasploit.com&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Whois Server Version 2.0&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Domain names in the .com and .net domains can now be registered&lt;/p&gt;&lt;p&gt;with many different competing registrars. Go to http://www.internic.net&lt;/p&gt;&lt;p&gt;for detailed information.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Domain Name: METASPLOIT.COM&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Registrar: MARKMONITOR INC.&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Sponsoring Registrar IANA ID: 292&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Whois Server: whois.markmonitor.com&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Referral URL: http://www.markmonitor.com&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Name Server: DELL.NS.CLOUDFLARE.COM&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Name Server: RICK.NS.CLOUDFLARE.COM&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Status: clientDeleteProhibited http://www.icann.org/epp#clientDeleteProhibited&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Status: clientUpdateProhibited http://www.icann.org/epp#clientUpdateProhibited&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Updated Date: 25-nov-2015&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Creation Date: 10-jun-2003&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;Expiration Date: 10-jun-2020&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;gt;&amp;gt;&amp;gt; Last update of whois database: Mon, 14 Dec 2015 14:06:20 GMT &amp;lt;&amp;lt;&amp;lt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;For more information on Whois status codes, please visit&lt;/p&gt;&lt;p&gt;https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;NOTICE: The expiration date displayed in this record is the date the&lt;/p&gt;&lt;p&gt;registrar's sponsorship of the domain name registration in the registry is&lt;/p&gt;&lt;p&gt;currently set to expire. This date does not necessarily reflect the expiration&lt;/p&gt;&lt;p&gt;date of the domain name registrant's agreement with the sponsoring&lt;/p&gt;&lt;p&gt;registrar. &amp;nbsp;Users may consult the sponsoring registrar's Whois database to&lt;/p&gt;&lt;p&gt;view the registrar's reported date of expiration for this registration.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;TERMS OF USE: You are not authorized to access or query our Whois&lt;/p&gt;&lt;p&gt;database through the use of electronic processes that are high-volume and&lt;/p&gt;&lt;p&gt;automated except as reasonably necessary to register domain names or&lt;/p&gt;&lt;p&gt;modify existing registrations; the Data in VeriSign Global Registry&lt;/p&gt;&lt;p&gt;Services' ("VeriSign") Whois database is provided by VeriSign for&lt;/p&gt;&lt;p&gt;information purposes only, and to assist persons in obtaining information&lt;/p&gt;&lt;p&gt;about or related to a domain name registration record. VeriSign does not&lt;/p&gt;&lt;p&gt;guarantee its accuracy. By submitting a Whois query, you agree to abide&lt;/p&gt;&lt;p&gt;by the following terms of use: You agree that you may use this Data only&lt;/p&gt;&lt;p&gt;for lawful purposes and that under no circumstances will you use this Data&lt;/p&gt;&lt;p&gt;to: (1) allow, enable, or otherwise support the transmission of mass&lt;/p&gt;&lt;p&gt;unsolicited, commercial advertising or solicitations via e-mail, telephone,&lt;/p&gt;&lt;p&gt;or facsimile; or (2) enable high volume, automated, electronic processes&lt;/p&gt;&lt;p&gt;that apply to VeriSign (or its computer systems). The compilation,&lt;/p&gt;&lt;p&gt;repackaging, dissemination or other use of this Data is expressly&lt;/p&gt;&lt;p&gt;prohibited without the prior written consent of VeriSign. You agree not to&lt;/p&gt;&lt;p&gt;use electronic processes that are automated and high-volume to access or&lt;/p&gt;&lt;p&gt;query the Whois database except as reasonably necessary to register&lt;/p&gt;&lt;p&gt;domain names or modify existing registrations. VeriSign reserves the right&lt;/p&gt;&lt;p&gt;to restrict your access to the Whois database in its sole discretion to ensure&lt;/p&gt;&lt;p&gt;operational stability. &amp;nbsp;VeriSign may restrict or terminate your access to the&lt;/p&gt;&lt;p&gt;Whois database for failure to abide by these terms of use. VeriSign&lt;/p&gt;&lt;p&gt;reserves the right to modify these terms at any time.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Registry database contains ONLY .COM, .NET, .EDU domains and&lt;/p&gt;&lt;p&gt;Registrars.&lt;/p&gt;&lt;p&gt;Domain Name: metasploit.com&lt;/p&gt;&lt;p&gt;Registry Domain ID: 98973533_DOMAIN_COM-VRSN&lt;/p&gt;&lt;p&gt;Registrar WHOIS Server: whois.markmonitor.com&lt;/p&gt;&lt;p&gt;Registrar URL: http://www.markmonitor.com&lt;/p&gt;&lt;p&gt;Updated Date: 2015-11-24T21:21:32-0800&lt;/p&gt;&lt;p&gt;Creation Date: 2003-06-09T23:53:17-0700&lt;/p&gt;&lt;p&gt;Registrar Registration Expiration Date: 2020-06-09T23:53:17-0700&lt;/p&gt;&lt;p&gt;Registrar: MarkMonitor, Inc.&lt;/p&gt;&lt;p&gt;Registrar IANA ID: 292&lt;/p&gt;&lt;p&gt;Registrar Abuse Contact Email: abusecomplaints@markmonitor.com&lt;/p&gt;&lt;p&gt;Registrar Abuse Contact Phone: +1.2083895740&lt;/p&gt;&lt;p&gt;Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)&lt;/p&gt;&lt;p&gt;Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)&lt;/p&gt;&lt;p&gt;Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)&lt;/p&gt;&lt;p&gt;Registry Registrant ID:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Registrant Name: Domain Admin&lt;/p&gt;&lt;p&gt;Registrant Organization: Rapid7&lt;/p&gt;&lt;p&gt;Registrant Street: 100 Summer Street, 13th Floor&lt;/p&gt;&lt;p&gt;Registrant City: Boston&lt;/p&gt;&lt;p&gt;Registrant State/Province: MA&lt;/p&gt;&lt;p&gt;Registrant Postal Code: 02110&lt;/p&gt;&lt;p&gt;Registrant Country: US&lt;/p&gt;&lt;p&gt;Registrant Phone: +1.6172471717&lt;/p&gt;&lt;p&gt;Registrant Phone Ext:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Registrant Fax: +1.6175076488&lt;/p&gt;&lt;p&gt;Registrant Fax Ext:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Registrant Email: domains@rapid7.com&lt;/p&gt;&lt;p&gt;Registry Admin ID:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Admin Name: Domain Admin&lt;/p&gt;&lt;p&gt;Admin Organization: Rapid7&lt;/p&gt;&lt;p&gt;Admin Street: 100 Summer Street, 13th Floor&lt;/p&gt;&lt;p&gt;Admin City: Boston&lt;/p&gt;&lt;p&gt;Admin State/Province: MA&lt;/p&gt;&lt;p&gt;Admin Postal Code: 02110&lt;/p&gt;&lt;p&gt;Admin Country: US&lt;/p&gt;&lt;p&gt;Admin Phone: +1.6172471717&lt;/p&gt;&lt;p&gt;Admin Phone Ext:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Admin Fax: +1.6175076488&lt;/p&gt;&lt;p&gt;Admin Fax Ext:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Admin Email: domains@rapid7.com&lt;/p&gt;&lt;p&gt;Registry Tech ID:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Tech Name: Domain Admin&lt;/p&gt;&lt;p&gt;Tech Organization: Rapid7&lt;/p&gt;&lt;p&gt;Tech Street: 100 Summer Street, 13th Floor&lt;/p&gt;&lt;p&gt;Tech City: Boston&lt;/p&gt;&lt;p&gt;Tech State/Province: MA&lt;/p&gt;&lt;p&gt;Tech Postal Code: 02110&lt;/p&gt;&lt;p&gt;Tech Country: US&lt;/p&gt;&lt;p&gt;Tech Phone: +1.6172471717&lt;/p&gt;&lt;p&gt;Tech Phone Ext:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Tech Fax: +1.6175076488&lt;/p&gt;&lt;p&gt;Tech Fax Ext:&amp;nbsp;&lt;/p&gt;&lt;p&gt;Tech Email: domains@rapid7.com&lt;/p&gt;&lt;p&gt;Name Server: dell.ns.cloudflare.com&lt;/p&gt;&lt;p&gt;Name Server: rick.ns.cloudflare.com&lt;/p&gt;&lt;p&gt;DNSSEC: unsigned&lt;/p&gt;&lt;p&gt;URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/&lt;/p&gt;&lt;p&gt;&amp;gt;&amp;gt;&amp;gt; Last update of WHOIS database: 2015-12-14T06:06:39-0800 &amp;lt;&amp;lt;&amp;lt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Data in MarkMonitor.com's WHOIS database is provided by MarkMonitor.com for&lt;/p&gt;&lt;p&gt;information purposes, and to assist persons in obtaining information about or&lt;/p&gt;&lt;p&gt;related to a domain name registration record. &amp;nbsp;MarkMonitor.com does not guarantee&lt;/p&gt;&lt;p&gt;its accuracy. &amp;nbsp;By submitting a WHOIS query, you agree that you will use this Data&lt;/p&gt;&lt;p&gt;only for lawful purposes and that, under no circumstances will you use this Data to:&lt;/p&gt;&lt;p&gt;&amp;nbsp;(1) allow, enable, or otherwise support the transmission of mass unsolicited,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;commercial advertising or solicitations via e-mail (spam); or&lt;/p&gt;&lt;p&gt;&amp;nbsp;(2) enable high volume, automated, electronic processes that apply to&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;MarkMonitor.com (or its systems).&lt;/p&gt;&lt;p&gt;MarkMonitor.com reserves the right to modify these terms at any time.&lt;/p&gt;&lt;p&gt;By submitting this query, you agree to abide by this policy.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;MarkMonitor is the Global Leader in Online Brand Protection.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;MarkMonitor Domain Management(TM)&lt;/p&gt;&lt;p&gt;MarkMonitor Brand Protection(TM)&lt;/p&gt;&lt;p&gt;MarkMonitor AntiPiracy(TM)&lt;/p&gt;&lt;p&gt;MarkMonitor AntiFraud(TM)&lt;/p&gt;&lt;p&gt;Professional and Managed Services&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Visit MarkMonitor at http://www.markmonitor.com&lt;/p&gt;&lt;p&gt;Contact us at +1.8007459229&lt;/p&gt;&lt;p&gt;In Europe, at +44.02032062220&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;For more information on Whois status codes, please visit&lt;/p&gt;&lt;p&gt;&amp;nbsp;https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;root@kali:/home/fajarpurnama#&amp;nbsp;&lt;/p&gt;&lt;p&gt;#####################################################################################&lt;/p&gt;&lt;b&gt;2.4 The Harvester&lt;/b&gt;&lt;p&gt;&lt;span&gt;Using this tool we can find other hosts of the domains and email addresses, here we limit to 50 search and choose to connect to bing search engine, change &lt;i&gt;bing &lt;/i&gt;to &lt;i&gt;all&lt;/i&gt;&amp;nbsp;for maximum perfomance, and see Figure 2.4.&lt;/span&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;span&gt;&lt;img src="@@PLUGINFILE@@/The%20Harvester.png" alt="Returns other hosts and email address" width="1365" height="676" style="vertical-align:middle; margin: 0 .5em;" class="img-responsive"&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 2.4 Using the harvester on metasploit.com&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/9rubWHinwkU" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="107">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450070356</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="120">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450070356</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Exercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="46">
+        <prevpageid>45</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>5</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1450103658</timecreated>
+        <timemodified>0</timemodified>
+        <title>Conventional and Tools</title>
+        <contents>&lt;p&gt;Both are important, but please match below:&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="108">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1450103658</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text></answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="109">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450103658</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text></answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="110">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450103658</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;ul&gt;&lt;li&gt;Newspaper&lt;br&gt;&lt;/li&gt;&lt;li&gt;TV&lt;/li&gt;&lt;li&gt;Advertisement&lt;/li&gt;&lt;li&gt;Magazines&lt;/li&gt;&lt;li&gt;Radio&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</answer_text>
+            <response>Convetional</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="111">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450103658</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;ul&gt;&lt;li&gt;Ping&lt;/li&gt;&lt;li&gt;Dig&lt;/li&gt;&lt;li&gt;Host&lt;/li&gt;&lt;li&gt;Nslookup&lt;/li&gt;&lt;li&gt;The Harvester&lt;/li&gt;&lt;li&gt;Dig&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</answer_text>
+            <response>Tools</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

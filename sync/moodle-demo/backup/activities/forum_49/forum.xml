@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="10" moduleid="49" modulename="forum" contextid="92">
+  <forum id="10">
+    <type>general</type>
+    <name>1. Starting Point --- Assignment</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <assessed>1</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>100</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1449762938</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="2">
+        <name>What do you want to program?</name>
+        <firstpost>2</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1449763050</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="2">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1449763050</created>
+            <modified>1449763050</modified>
+            <mailed>0</mailed>
+            <subject>What do you want to program?</subject>
+            <message>&lt;p&gt;Please write your motivation here (reply).&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Please write a short comment on computer programming.&lt;/li&gt;&lt;li&gt;Provide
+ an example of application in computer programming (if possible what you
+ want to achieve in computer programming, or what inspires you).&lt;/li&gt;&lt;li&gt;Give
+ some examples of computer programming language (it's encourage to write
+ about your experience in programming, what languages you have used, 
+what languages you planned to study).&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+          <discussion_sub id="2">
+            <userid>2</userid>
+            <preference>1449763050</preference>
+          </discussion_sub>
+        </discussion_subs>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <digests>
+    </digests>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="48" modulename="workshop" contextid="91">
+  <workshop id="2">
+    <name>5. Present Your Network (Optional)</name>
+    <intro>Make a network of your own for example a laboratory network, a corporate network, a university network, a hidden network, etc. It can be a real network or a simulation and present them.&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <instructauthors>&lt;p&gt;Submit your work in form of presentation, video, simulation file, report, anything interesting.&lt;br&gt;&lt;/p&gt;</instructauthors>
+    <instructauthorsformat>1</instructauthorsformat>
+    <instructreviewers>&lt;p&gt;Creating a simple WAN is the minimum.&lt;br&gt;&lt;/p&gt;</instructreviewers>
+    <instructreviewersformat>1</instructreviewersformat>
+    <timemodified>1449762586</timemodified>
+    <phase>20</phase>
+    <useexamples>0</useexamples>
+    <usepeerassessment>1</usepeerassessment>
+    <useselfassessment>1</useselfassessment>
+    <grade>80.00000</grade>
+    <gradinggrade>20.00000</gradinggrade>
+    <strategy>accumulative</strategy>
+    <evaluation>best</evaluation>
+    <gradedecimals>0</gradedecimals>
+    <nattachments>1</nattachments>
+    <latesubmissions>0</latesubmissions>
+    <maxbytes>0</maxbytes>
+    <examplesmode>0</examplesmode>
+    <submissionstart>0</submissionstart>
+    <submissionend>0</submissionend>
+    <assessmentstart>0</assessmentstart>
+    <assessmentend>0</assessmentend>
+    <conclusion></conclusion>
+    <conclusionformat>1</conclusionformat>
+    <overallfeedbackmode>1</overallfeedbackmode>
+    <overallfeedbackfiles>0</overallfeedbackfiles>
+    <overallfeedbackmaxbytes>0</overallfeedbackmaxbytes>
+    <subplugin_workshopform_accumulative_workshop>
+      <workshopform_accumulative_dimension id="4">
+        <sort>1</sort>
+        <description>&lt;p&gt;Contain a configured WAN.&lt;br&gt;&lt;/p&gt;</description>
+        <descriptionformat>1</descriptionformat>
+        <grade>50</grade>
+        <weight>1</weight>
+      </workshopform_accumulative_dimension>
+      <workshopform_accumulative_dimension id="5">
+        <sort>2</sort>
+        <description>Larger WAN and Common Features.&lt;br&gt;</description>
+        <descriptionformat>1</descriptionformat>
+        <grade>35</grade>
+        <weight>1</weight>
+      </workshopform_accumulative_dimension>
+      <workshopform_accumulative_dimension id="6">
+        <sort>3</sort>
+        <description>Your network's advantage.&lt;br&gt;</description>
+        <descriptionformat>1</descriptionformat>
+        <grade>15</grade>
+        <weight>1</weight>
+      </workshopform_accumulative_dimension>
+    </subplugin_workshopform_accumulative_workshop>
+    <subplugin_workshopform_comments_workshop>
+    </subplugin_workshopform_comments_workshop>
+    <subplugin_workshopform_numerrors_workshop>
+    </subplugin_workshopform_numerrors_workshop>
+    <subplugin_workshopform_rubric_workshop>
+    </subplugin_workshopform_rubric_workshop>
+    <subplugin_workshopeval_best_workshop>
+    </subplugin_workshopeval_best_workshop>
+    <examplesubmissions>
+    </examplesubmissions>
+    <submissions>
+    </submissions>
+    <aggregations>
+    </aggregations>
+  </workshop>
+</activity>

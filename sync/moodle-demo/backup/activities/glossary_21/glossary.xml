@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="21" modulename="glossary" contextid="64">
+  <glossary id="2">
+    <name>Beginners' Computer Programming Glossary</name>
+    <intro>You may insert any words you don't understand. The teacher of other fellow student might add a definition to it.&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <allowduplicatedentries>0</allowduplicatedentries>
+    <displayformat>dictionary</displayformat>
+    <mainglossary>0</mainglossary>
+    <showspecial>1</showspecial>
+    <showalphabet>1</showalphabet>
+    <showall>1</showall>
+    <allowcomments>0</allowcomments>
+    <allowprintview>1</allowprintview>
+    <usedynalink>1</usedynalink>
+    <defaultapproval>1</defaultapproval>
+    <globalglossary>0</globalglossary>
+    <entbypage>10</entbypage>
+    <editalways>0</editalways>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>100</scale>
+    <timecreated>1447946420</timecreated>
+    <timemodified>1449528785</timemodified>
+    <completionentries>0</completionentries>
+    <entries>
+      <entry id="13">
+        <userid>2</userid>
+        <concept>OS</concept>
+        <definition>&lt;p&gt;&lt;li&gt;&lt;span class="_Tgc"&gt;An &lt;b&gt;operating system&lt;/b&gt; (&lt;b&gt;OS&lt;/b&gt;) is &lt;b&gt;system&lt;/b&gt; software that manages computer hardware and software resources and provides common services for computer programs.&lt;/span&gt;&lt;/li&gt;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765275</timecreated>
+        <timemodified>1449765275</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="14">
+        <userid>2</userid>
+        <concept>Text Editor</concept>
+        <definition>&lt;p&gt;&lt;span class="_Tgc"&gt;An application to create a text file.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765310</timecreated>
+        <timemodified>1449765310</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="15">
+        <userid>2</userid>
+        <concept>Compiler</concept>
+        <definition>&lt;p&gt;&lt;span class="_Tgc"&gt;&lt;span class="_Tgc"&gt;A &lt;b&gt;compiler&lt;/b&gt; is a computer program (or a set of 
+programs) that transforms source code written in a programming language 
+(the source language) into another computer language (the target 
+language), with the latter often having a binary form known as object 
+code.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765331</timecreated>
+        <timemodified>1449765331</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="16">
+        <userid>2</userid>
+        <concept>Computer Program</concept>
+        <definition>&lt;p&gt;&lt;span class="_Tgc"&gt;&lt;span class="_Tgc"&gt;A &lt;b&gt;computer program&lt;/b&gt; is a collection of &lt;a href="https://en.wikipedia.org/wiki/Instruction_set" title="Instruction set"&gt;instructions&lt;/a&gt; that performs a specific task when &lt;a href="https://en.wikipedia.org/wiki/Execution_%28computing%29" title="Execution (computing)"&gt;executed&lt;/a&gt; by a &lt;a href="https://en.wikipedia.org/wiki/Computer" title="Computer"&gt;computer&lt;/a&gt;. A computer requires programs to function, and typically executes the program's instructions in a &lt;a href="https://en.wikipedia.org/wiki/Central_processing_unit" title="Central processing unit"&gt;central processing unit&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765353</timecreated>
+        <timemodified>1449765353</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="17">
+        <userid>2</userid>
+        <concept>Variable</concept>
+        <definition>&lt;p&gt;[please fill]&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765383</timecreated>
+        <timemodified>1449765383</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="18">
+        <userid>2</userid>
+        <concept>Function</concept>
+        <definition>&lt;p&gt;[please fill]&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765398</timecreated>
+        <timemodified>1449765398</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+    </entries>
+    <categories>
+    </categories>
+  </glossary>
+</activity>

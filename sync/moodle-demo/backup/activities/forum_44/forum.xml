@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="9" moduleid="44" modulename="forum" contextid="87">
+  <forum id="9">
+    <type>general</type>
+    <name>1. Before Proceeding to Next Section (Assignment)</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <assessed>1</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>100</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>9</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1449729338</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="1">
+        <name>Your motivation of computer network.</name>
+        <firstpost>1</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1449729596</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="1">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1449729556</created>
+            <modified>1449729596</modified>
+            <mailed>0</mailed>
+            <subject>Your motivation of computer network.</subject>
+            <message>&lt;p&gt;Write on this discussion (reply).&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What's you experience on computer network?&lt;br&gt;&lt;/li&gt;&lt;li&gt;Why do you want to study computer network?&lt;/li&gt;&lt;li&gt;What do you application do you want to make regarding to computer network?&lt;/li&gt;&lt;li&gt;Do you have other stories?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+          <discussion_sub id="1">
+            <userid>2</userid>
+            <preference>1449729556</preference>
+          </discussion_sub>
+        </discussion_subs>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <digests>
+    </digests>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="38">
+  <number>2</number>
+  <name>First Sight of Computer Network</name>
+  <summary>If you have the hardwares to perform your experiment it's very suggested to make use of them, but here we will give the materials in simulations. My experiences in network simulators is that I found Cisco Packet Tracer the easiest to use (very recommended for beginners), but to obtain this software legally you need to enroll into Cisco Academy. We understand that not all have access to this software, so we decided to use alternatives. If you have a legal Cisco IOS image Gui Network Simulator 3 (GNS3) is your next alternative, if not then search for other free network simulator. Here we use Common Open Research Emulator (Core) Network &lt;a href="http://www.nrl.navy.mil/itd/ncs/products/core"&gt;http://www.nrl.navy.mil/itd/ncs/products/core&lt;/a&gt;.&lt;br&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>37,38,44,39,45,42,46,43,47,48,30,31,32</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+</section>

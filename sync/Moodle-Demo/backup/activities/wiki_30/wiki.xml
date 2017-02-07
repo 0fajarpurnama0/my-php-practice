@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="30" modulename="wiki" contextid="66">
+  <wiki id="2">
+    <name>First Sight of Computer Network Wiki</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <timecreated>0</timecreated>
+    <timemodified>1449225233</timemodified>
+    <firstpagetitle>Front Page</firstpagetitle>
+    <wikimode>collaborative</wikimode>
+    <defaultformat>html</defaultformat>
+    <forceformat>0</forceformat>
+    <editbegin>0</editbegin>
+    <editend>0</editend>
+    <subwikis>
+    </subwikis>
+  </wiki>
+</activity>

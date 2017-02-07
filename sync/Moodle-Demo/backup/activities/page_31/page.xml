@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="31" modulename="page" contextid="67">
+  <page id="3">
+    <name>Course Outline</name>
+    <intro>&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <content>&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Course
+Overview and Introduction&lt;/b&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;The world of a true hacker is a very complex but at the same time very exciting. The materials on hacking is very big, to us first hand knowledge of networking and programming is quite necessary. It's an unheard that you have to know about the system if you want hack successfully. Unfortunately we will not go that far as the topic of this section mentioned we only let you have a taste of being a hacker. It's not expected you will be a hacker after you finish this topic, but we will like to give you the sensation of a hacker. It'll be a nice starting point if you want to be a hacker.&lt;br&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Learning
+Objective&lt;/b&gt;&lt;/p&gt;There are more steps than just hijacking a system, the learning objective is to know what that other steps are. We will learn a few tools used in hacking, and finally let you have a taste of exploitation and creating a malware. Basically we will:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Know the common 4 steps of hacking on Figure 1.&lt;/li&gt;&lt;li&gt;Know some famous tools in hacking.&lt;/li&gt;&lt;li&gt;Perform experiments on virtual lab.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/4%20Phase%20Pentest.jpg" alt="Information Gathering, Scanning, Exploitation, Maintaining Access" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="739" width="794"&gt;&lt;br&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;Figure 1. The 4 basic steps&lt;br&gt;&lt;/div&gt;&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Assessment
+and Measurement&lt;/b&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;It's
+up to you of how to do this course but it is recommended to do the
+following:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Read
+the contents. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Do the quizzes to enrich your understanding of the content. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Submit assignments, more of making a simulation.&lt;br&gt;&lt;/li&gt;&lt;li&gt;We never meant to place
+difficult materials so aim for perfect scores before proceeding to
+the next material since attempting a grade is unlimited. 
+&lt;/li&gt;&lt;/ol&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;Once
+again the top instructions are just our recommendation, do the course
+as you wish.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;If
+your overall score is below 50% you should complete more materials or
+aim for higher grade. &lt;br&gt;&lt;/li&gt;&lt;li&gt;If it's above you are ready.&lt;br&gt;&lt;/li&gt;&lt;li&gt;If you got 100% then you should have no
+problem.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</content>
+    <contentformat>1</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:12:"printheading";s:1:"1";s:10:"printintro";s:1:"0";}</displayoptions>
+    <revision>2</revision>
+    <timemodified>1449830491</timemodified>
+  </page>
+</activity>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="5" moduleid="28" modulename="lesson" contextid="71">
+  <lesson id="5">
+    <course>4</course>
+    <name>4. Arrays and Loops</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449191502</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="12">
+        <prevpageid>0</prevpageid>
+        <nextpageid>13</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449194868</timecreated>
+        <timemodified>1449764527</timemodified>
+        <title>4.1 In Pascal</title>
+        <contents>This is not a formal definition but we see array as place to store many values. If you assign a variable as an array it may store many numbers, names, values, etc. For example we store the username and password into the array first hand:&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;program array1;&lt;br&gt;&lt;br&gt;var&lt;br&gt;&amp;nbsp;username : array[0..5] of string = ('John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin');&lt;br&gt;&amp;nbsp;password : array[0..5] of string = ('Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda');&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;writeln(username[0]);&lt;br&gt;&amp;nbsp;writeln(username[1]);&lt;br&gt;&amp;nbsp;writeln(username[3]);&lt;br&gt;&amp;nbsp;writeln();&lt;br&gt;&amp;nbsp;writeln(password[0]);&lt;br&gt;&amp;nbsp;writeln(password[1]);&lt;br&gt;&amp;nbsp;writeln(password[3]);&lt;br&gt;&lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;Or you may fill them afterward:&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;program array2;&lt;br&gt;&lt;br&gt;var&lt;br&gt;&amp;nbsp;username : array[0..5] of string;&lt;br&gt;&amp;nbsp;password : array[0..5] of string;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;username[0] := 'Fajar'; password[0] := 'Purnama';&lt;br&gt;&amp;nbsp;writeln(username[0]); writeln(password[0]);&lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;If we have many username and password, and we want to write a login script as in section 3 it will be very difficult. Instead why not the machine do it program? In other words we write a program telling the machine to automatically write the script. Our method here is using the loop method as following.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;program for_loop;&lt;br&gt;&lt;br&gt;var&lt;br&gt;&amp;nbsp;username : array[0..5] of string = ('John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin');&lt;br&gt;&amp;nbsp;password : array[0..5] of string = ('Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda');&lt;br&gt;&amp;nbsp;i: integer;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;for i := 0 to 5 do&lt;br&gt;&amp;nbsp;begin&lt;br&gt;&amp;nbsp; writeln(i);&lt;br&gt;&amp;nbsp;end; &lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;writeln;&lt;br&gt;&lt;br&gt;&amp;nbsp;for i := 0 to 5 do&lt;br&gt;&amp;nbsp;begin&lt;br&gt;&amp;nbsp; writeln(username[i], password[i]);&lt;br&gt;&amp;nbsp;end;&lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;The program above uses for loop up to 6x (0-5), the first for loop shows that the value if "i" changes in order from 0 to 5 every iteration, and the next for loop shows we can call the username and password using shorter script. Next let's implement the section 3 login script (again copy, paste, and try the program first for easier approach).&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;program many_login;&lt;br&gt;&lt;br&gt;var&lt;br&gt;&amp;nbsp;username : array[0..5] of string = ('John', 'Mary', 'Fajar', 'emanresu', 'root', 'admin');&lt;br&gt;&amp;nbsp;password : array[0..5] of string = ('Doe', 'Jane', 'Purnama', 'drowssap', 'toor', 'nimda');&lt;br&gt;&amp;nbsp;i: integer;&lt;br&gt;&amp;nbsp;username_input, password_input: string;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;write('Username: '); readln(username_input);&lt;br&gt;&amp;nbsp;write('Password: '); readln(password_input);&lt;br&gt;&lt;br&gt;&amp;nbsp;for i := 0 to 5 do&lt;br&gt;&amp;nbsp;begin&lt;br&gt;&lt;br&gt;&amp;nbsp; if (username_input = username[i]) and (password_input = password[i]) then&lt;br&gt;&amp;nbsp; begin&lt;br&gt;&amp;nbsp;&amp;nbsp; writeln('Hello ', username_input, ' ', password_input, '!');&lt;br&gt;&amp;nbsp;&amp;nbsp; break;&lt;br&gt;&amp;nbsp; end&lt;br&gt;&amp;nbsp; else if i = 5 then&lt;br&gt;&amp;nbsp;&amp;nbsp; writeln('Wrong username or password!');&lt;br&gt;&lt;br&gt;&amp;nbsp;end;&lt;br&gt;&lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;The code above uses "begin" and "end" if we want to put more statement inside the if else. The "break" function forcefully ends the for loop if the correct username and password has been found. On the other hand if the for loop already on it's last iteration "5" and no username and password had been found, it will write "Wrong username or password". Other than For there's also While, maybe more at other programming language. "For" specifies the number of iterations, while "while" sets a goal which the process will not stop until it reaches its goal.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;program while_test;&lt;br&gt;&lt;br&gt;var&lt;br&gt;&amp;nbsp;a,i: integer;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;a := 1;&lt;br&gt;&amp;nbsp;write('How much do you want to count? Insert a number: '); readln(i);&lt;br&gt;&amp;nbsp;while a &amp;lt;= i do&lt;br&gt;&amp;nbsp;begin&lt;br&gt;&amp;nbsp; writeln(a);&lt;br&gt;&amp;nbsp; a := a + 1;&lt;br&gt;&amp;nbsp;end;&lt;br&gt;&lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="24">
+            <jumpto>13</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449194868</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>4.2 In C</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="25">
+            <jumpto>37</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449194868</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Exercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="13">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449209167</timeseen>
+            <nextpageid>13</nextpageid>
+          </branch>
+        </branches>
+      </page>
+      <page id="13">
+        <prevpageid>12</prevpageid>
+        <nextpageid>37</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449198895</timecreated>
+        <timemodified>1449764545</timemodified>
+        <title>4.2 In C</title>
+        <contents>&lt;p&gt;This is not a formal definition but we see array as place to store many 
+values. If you assign a variable as an array it may store many numbers, 
+names, values, etc. For example we store the username and password into 
+the array first hand:&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;const char * username[] = {"John", "Mary"};&lt;br&gt;&amp;nbsp;printf("This is string array: %s %s\n", username[0], username[1]);&lt;br&gt;&lt;br&gt;&amp;nbsp;const char * password[] = {"Doe", "Jane"};&lt;br&gt;&amp;nbsp;printf("This is string array: %s %s\n", password[0], password[1]);&lt;br&gt;&lt;br&gt;&amp;nbsp;int number[] = {10, 7, 3};&lt;br&gt;&amp;nbsp;printf("This is integer array: %d %d %d\n", number[0], number[1], number[2]);&lt;br&gt;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;Or you may fill them afterward:&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;const char * username[6];&lt;br&gt;&amp;nbsp;username[0] = "John";&lt;br&gt;&amp;nbsp;username[1] = "Mary";&lt;br&gt;&amp;nbsp;printf("This is string array: %s %s\n", username[0], username[1]);&lt;br&gt;&lt;br&gt;&amp;nbsp;const char * password[6];&lt;br&gt;&amp;nbsp;password[0] = "Doe";&lt;br&gt;&amp;nbsp;password[1] = "Jane";&lt;br&gt;&amp;nbsp;printf("This is string array: %s %s\n", password[0], password[1]);&lt;br&gt;&lt;br&gt;&amp;nbsp;int number[3];&lt;br&gt;&amp;nbsp;number[0] = 10;&lt;br&gt;&amp;nbsp;number[1] = 7;&lt;br&gt;&amp;nbsp;number[2] = 4;&lt;br&gt;&amp;nbsp;printf("This is integer array: %d %d %d\n", number[0], number[1], number[2]);&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;If we have many username and password, and we want to write a 
+login script as in section 3 it will be very difficult. Instead why not 
+the machine do it program? In other words we write a program telling the
+ machine to automatically write the script. Our method here is using the
+ loop method as following.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;const char * username[] = {"John", "Mary", "Fajar", "emanresu", "root", "admin"};&lt;br&gt;&lt;br&gt;&amp;nbsp;const char * password[] = {"Doe", "Jane", "Purnama", "drowssap", "toor", "nimda"};&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;int i;&lt;br&gt;&lt;br&gt;&amp;nbsp;for(i = 0; i &amp;lt;= 5; i++){&lt;br&gt;&amp;nbsp; printf("%d\n", i);&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;for(i = 0; i &amp;lt;= 5; i++){&lt;br&gt;&amp;nbsp; printf("This is string array: %s %s\n", username[i], password[i]);&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;The program above uses for loop up to 6x (0-5), the first for loop
+ shows that the value if "i" changes in order from 0 to 5 every 
+iteration, and the next for loop shows we can call the username and 
+password using shorter script. Next let's implement the section 3 login 
+script (again copy, paste, and try the program first for easier 
+approach).&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;const char * username[] = {"John", "Mary", "Fajar", "emanresu", "root", "admin"};&lt;br&gt;&lt;br&gt;&amp;nbsp;const char * password[] = {"Doe", "Jane", "Purnama", "drowssap", "toor", "nimda"};&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;char username_input[20], password_input[20];&lt;br&gt;&lt;br&gt;&amp;nbsp;printf("Username: "); scanf("%s", username_input);&lt;br&gt;&amp;nbsp;printf("Password: "); scanf("%s", password_input);&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;int i;&lt;br&gt;&lt;br&gt;&amp;nbsp;for(i = 0; i &amp;lt;= 5; i++){&lt;br&gt;&amp;nbsp; if((strncmp(username_input, username[i], 20) == 0) &amp;amp;&amp;amp; (strncmp(password_input, password[i], 20) == 0)){&lt;br&gt;&amp;nbsp;&amp;nbsp; printf("Hello %s %s\n", username_input, password_input);&lt;br&gt;&amp;nbsp;&amp;nbsp; break;&lt;br&gt;&amp;nbsp; } else if(i == 5) {&lt;br&gt;&amp;nbsp;&amp;nbsp; printf("Wrong username or password\n");&lt;br&gt;&amp;nbsp; }&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;The "break" function forcefully ends the 
+for loop if the correct username and password has been found. On the 
+other hand if the for loop already on it's last iteration "5" and no 
+username and password had been found, it will write "Wrong username or 
+password". Other than For there's also While, maybe more at other programming 
+language. "For" specifies the number of iterations, while "while" sets a
+ goal which the process will not stop until it reaches its goal.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;int i,a;&lt;br&gt;&amp;nbsp;a = 1;&lt;br&gt;&lt;br&gt;&amp;nbsp;printf("How much do you want to count? Insert a number: "); scanf("%d", &amp;amp;i);&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;while(a&amp;lt;=i){&lt;br&gt;&amp;nbsp; printf("%d\n", a);&lt;br&gt;&amp;nbsp; a++;&lt;br&gt;&amp;nbsp;}&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="26">
+            <jumpto>12</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449198895</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>4.1 In Pascal</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="27">
+            <jumpto>37</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449198895</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Exercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="20">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449533681</timeseen>
+            <nextpageid>12</nextpageid>
+          </branch>
+        </branches>
+      </page>
+      <page id="37">
+        <prevpageid>13</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>2</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449764498</timecreated>
+        <timemodified>0</timemodified>
+        <title>Simple Loops</title>
+        <contents>&lt;p&gt;For i = 1 to 10&lt;/p&gt;&lt;p&gt;output i&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="93">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449764498</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;1 2 3 4 5 6 7 8 9 10&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Correct&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="94">
+            <jumpto>12</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449764498</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;1&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;It's not looping.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

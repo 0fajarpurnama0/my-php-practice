@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="6" moduleid="21" modulename="lesson" contextid="57">
+  <lesson id="6">
+    <course>3</course>
+    <name>2. A Network</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449532636</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="19">
+        <prevpageid>0</prevpageid>
+        <nextpageid>20</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449536806</timecreated>
+        <timemodified>1449769274</timemodified>
+        <title>2.1 A network</title>
+        <contents>&lt;b&gt;2.1.1 Peer-Peer Network&lt;/b&gt;&lt;br&gt;&lt;br&gt;A peer to peer network is a network consist of only 2 device, whether it is wired or wireless. It's like a conversation between 2 people on Figure 2.1.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Peer-Peer-Network.png" alt="2 PC connected" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="124" width="355"&gt;&lt;br&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;Figure 2.1 Peer-Peer Network&lt;br&gt;&lt;div style="text-align: left;"&gt;&lt;br&gt;&lt;b&gt;2.1.2 Local Area Network (LAN)&lt;br&gt;&lt;br&gt;&lt;/b&gt;When another device joins with peer-peer network, it then becomes a local area network (LAN). A LAN consist of more than 2 device that can be connected through a bus cable, a layer 1 Hub, or a layer 2 switch. For this course we just show the simple part on Figure 2.2 is a LAN consist of PCs connected to a L2 switch.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Locar-Area-Network.png" alt="3 PCs connected to 1 switch" style="vertical-align:middle; margin: 0 .5em;" class="img-responsive" height="279" width="316"&gt;&lt;br&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;Figure 2.2 Local Area Network (LAN)&lt;br&gt;&lt;br&gt;&lt;div style="text-align: left;"&gt;&lt;b&gt;2.1.3 Wide Area Network (WAN)&lt;br&gt;&lt;br&gt;&lt;/b&gt;A wide area network (WAN) is network consist of 2 or more LAN which definitely larger than a peer-peer network and a LAN. It is said that The Internet is the largest WAN. On Figure 2.3 shows a minimal WAN consist of of 2 LAN where they are connected by a L3 router. Figure 2.4 is a summary of this topic.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Wide-Area-Network.png" alt="2 LAN connected to a router" style="vertical-align:middle; margin: 0 .5em;" class="img-responsive" height="564" width="902"&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style="text-align: center;"&gt;Figure 2.3 Wide Area Network (WAN)&lt;br&gt;&lt;img src="@@PLUGINFILE@@/A-Network.gif" alt="GIF Image of the 3 Figures" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="279" width="316"&gt;&lt;br&gt;Figure 2.4 Summary&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;&lt;iframe src="https://www.youtube.com/embed/Sy-6yWaGt3A" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="47">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449536806</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Excercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="20">
+        <prevpageid>19</prevpageid>
+        <nextpageid>21</nextpageid>
+        <qtype>5</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449537020</timecreated>
+        <timemodified>0</timemodified>
+        <title>Simple Network</title>
+        <contents>&lt;p&gt;Match the following statements:&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="48">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449537020</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Right Answer&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="49">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449537020</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Try again.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="50">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449537020</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Consist of 2 PCs&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>Peer-Peer Network</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="51">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449537020</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Consist of more than 2 PCs and 1 Switch&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>LAN</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="52">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449537020</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Consist of 2 LANs or more&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>WAN</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="21">
+        <prevpageid>20</prevpageid>
+        <nextpageid>22</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449541047</timecreated>
+        <timemodified>1449543671</timemodified>
+        <title>2.2 Some Information</title>
+        <contents>&lt;p&gt;&lt;b&gt;2.2.1 Internet Protocol Version 4&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Each computer devices has 2 commonly known address. One is a hardware address (usually MAC: e0:3f:49:c3:36:dc) and network address which today use internet protocol version 4 (IPv4) and in the future will implement IPV6. The hardware address we judge as a later topic so we will only explain the correlation between hardware address and network address is they synchronize by a process called network address translation (NAT).&lt;/p&gt;&lt;p&gt;Today we still use IPv4 address to connect to the network. The IP address for example 192.168.0.2/24 or 192.168.0.2 255.255.255.0 is not on the computer itself, but assigned on the network interface (cable ethernet adapter, wireless adapter, etc). The last part of the IP address (192.168.0.24&lt;u&gt;/24&lt;/u&gt;, or 192.168.0.24 &lt;u&gt;255.255.255.0&lt;/u&gt;) is the subnet mask which the determines the networks it belongs to. On the network:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The first IP address is a network address.&lt;/li&gt;&lt;li&gt;The second IP address is usually assigned on the default gateway.&lt;/li&gt;&lt;li&gt;The last IP address is the broadcast address.&lt;/li&gt;&lt;li&gt;The remaining IP address is assigned to other devices or each PCs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The subnet mask determines the class of the IP address. Class A network can store more IP address, class B is less than class A, and class C is the least. There are also classless IP address based on subnet mask, but it's regarded as advance topic, so it will not be discuss here. Here we only use class C private IP address from 192.168.0.0 - 192.168.255.255.&lt;br&gt;&lt;/p&gt;&lt;table&gt;
+&lt;caption&gt;&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center;" scope="col"&gt;Class&lt;/th&gt;
+&lt;th style="text-align: center;" scope="col"&gt;Subnet&lt;/th&gt;
+&lt;th style="text-align: center;" scope="col"&gt;Total address&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;A&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;255.0.0.0 or /8&lt;br&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;16277215&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;B&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;255.255.0.0 or /16&lt;br&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;65535&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;C&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;255.255.255.0 /24&lt;br&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;255&lt;br&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;After an IP address there is a slash (/) indicating the subnet mask based on the number of binary "1" containing on the subnet mask when converted to binary value. That's also advance topic but we would like you to remember the following:&lt;br&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center;" scope="col"&gt;255.0.0.0&lt;/th&gt;
+&lt;th style="text-align: center;" scope="col"&gt;/8&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;255.255.0.0&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;255.255.255.0&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;/24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+You may write it like this 192.168.1.1/24 or 192.168.1.1 255.255.255.0. By the way a private IP address is an address we can use on the network 
+outside The Internet and public IP address are other than private 
+address that are registered on The Internet.&lt;br&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col"&gt;Class&lt;/th&gt;
+&lt;th scope="col"&gt;Private IP Address&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;10.0.0.0/8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;172.16.0.0/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;192.168.0.0/24 - 192.168.255.0/24&lt;br&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+We will only be using class C private IP address. Back on the topic of network address, default gateway, broadcast address, and host address examples as follow:&lt;br&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col"&gt;Subnet Mask&lt;br&gt;&lt;/th&gt;
+&lt;th scope="col"&gt;Network ID&lt;br&gt;&lt;/th&gt;
+&lt;th scope="col"&gt;Default Gateway&lt;br&gt;&lt;/th&gt;
+&lt;th scope="col"&gt;Host ID (Free Address)&lt;br&gt;&lt;/th&gt;
+&lt;th scope="col"&gt;Broadcast ID&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;255.255.255.0 or /24&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;192.168.0.0&lt;/td&gt;
+&lt;td&gt;192.168.0.1&lt;/td&gt;
+&lt;td&gt;192.168.0.2 - 192.168.0.254&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;192.168.0.255&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;255.255.255.0 or /24&lt;/td&gt;
+&lt;td&gt;192.168.1.0&lt;/td&gt;
+&lt;td&gt;192.168.1.1&lt;/td&gt;
+&lt;td&gt;192.168.1.2 - 192.168.1.254&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;192.168.1.255&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;255.255.0.0 or /16&lt;/td&gt;
+&lt;td&gt;172.16.0.0&lt;/td&gt;
+&lt;td&gt;172.16.0.1&lt;/td&gt;
+&lt;td&gt;172.16.0.2 - 172.16.255.254&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;172.16.255.255&lt;br&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;255.0.0.0 or /8&lt;/td&gt;
+&lt;td&gt;10.0.0.0&lt;/td&gt;
+&lt;td&gt;10.0.0.1&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;10.0.0.2 - 10.255.255.254&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;10.255.255.255&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+If you return to section 2.1 of an IP address assign, for example 192.168.1.20/24 belongs to network 192.168.1.0, and 192.168.2.20/24 belongs to network 192.168.2.0. &lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2.2.2 &lt;/b&gt;&lt;b&gt;&lt;span class="_Tgc"&gt;&lt;b&gt;Open Systems Interconnection&lt;/b&gt;&lt;/span&gt; Model&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The &lt;span class="_Tgc"&gt;Open Systems Interconnection&lt;/span&gt; had 7 layers or referred as OSI layer which a network technician must have heard at least once on Figure 2.5. &lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img class="transparent" alt="http://www.radio-electronics.com/images/ims-osi-layers.gif" src="http://www.radio-electronics.com/images/ims-osi-layers.gif"&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 2.5 Osi Layer&lt;/p&gt;&lt;p style="text-align: center;"&gt;(http://www.radio-electronics.com/images/ims-osi-layers.gif)&lt;/p&gt;&lt;p style="text-align: left;"&gt;It's also an advance topic so we cover only the outline. L1 Physical is on the physical transmission media site like the ethernet cable, fiber optic, or radio wave. L2 Data Link is on the hardware address MAC for example, this layer groups the bits received in transmission. L3 Network is on the network address, IP address for example and defines the routing mechanism. L4 Transport is the transport mechanism use, TCP or UDP for example. L5 Session creates a session. L6 Presentation and L7 Application is what we see on the screen, interfaces the we directly interact with.&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="53">
+            <jumpto>19</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541047</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Return</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="64">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541047</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Excecise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="22">
+        <prevpageid>21</prevpageid>
+        <nextpageid>23</nextpageid>
+        <qtype>5</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449541296</timecreated>
+        <timemodified>1449541307</timemodified>
+        <title>IP Address</title>
+        <contents>&lt;p&gt;Match the following if we use an IP address of 192.168.100.29/24 or 192.168.100.29 255.255.255.0.&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="54">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449541296</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Correct!&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="55">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541296</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Try Again!&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="56">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541296</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Network ID&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>192.168.100.0</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="57">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541296</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Default Gateway (commonly used)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>192.168.100.1</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="58">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541296</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Host ID&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>192.168.100.29</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="59">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541296</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Broadcast ID&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>192.168.100.255</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="23">
+        <prevpageid>22</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449541787</timecreated>
+        <timemodified>1449541806</timemodified>
+        <title>OSI Layer</title>
+        <contents>&lt;p&gt;Which of the following order is correct?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="60">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541787</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>7. Application&lt;br&gt;6. Presentation&lt;br&gt;5. Session&lt;br&gt;4. Transport&lt;br&gt;3. Datalink&lt;br&gt;2. Network&lt;br&gt;1. Physical&lt;br&gt;</answer_text>
+            <response>&lt;p&gt;Close, Try Again!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="61">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541787</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;7. Physical&lt;/p&gt;&lt;p&gt;6. Datalink&lt;br&gt;&lt;/p&gt;&lt;p&gt;5. Network&lt;/p&gt;&lt;p&gt;4. Transport&lt;/p&gt;&lt;p&gt;3. Session&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. Presentation&lt;br&gt;&lt;/p&gt;&lt;p&gt;1. Application&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;They are all inverted, try again!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="62">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449541787</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;7. Application&lt;br&gt;6. Presentation&lt;br&gt;5. Session&lt;br&gt;4. Transport&lt;br&gt;3. Network&lt;br&gt;2. Datalink&lt;br&gt;1. Physical&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Correct!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="63">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449541787</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;7. Application&lt;br&gt;6. Presentation&lt;br&gt;5. Session&lt;br&gt;4. Transport&lt;br&gt;3. Physical&lt;br&gt;2. Network&lt;br&gt;1. Datalink&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;The bottom layers are mixed, try again!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

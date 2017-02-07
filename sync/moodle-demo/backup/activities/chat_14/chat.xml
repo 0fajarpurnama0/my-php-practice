@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="14" modulename="chat" contextid="57">
+  <chat id="2">
+    <name>Global Chat</name>
+    <intro>&lt;p&gt;Global Chat&lt;br&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <keepdays>0</keepdays>
+    <studentlogs>1</studentlogs>
+    <chattime>1448018700</chattime>
+    <schedule>0</schedule>
+    <timemodified>1447932514</timemodified>
+    <messages>
+    </messages>
+  </chat>
+</activity>

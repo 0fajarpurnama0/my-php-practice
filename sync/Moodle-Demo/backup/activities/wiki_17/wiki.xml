@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="17" modulename="wiki" contextid="53">
+  <wiki id="1">
+    <name>Starting Computer Programming Wiki, "What's next?"</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <timecreated>0</timecreated>
+    <timemodified>1449529745</timemodified>
+    <firstpagetitle>What's Next?</firstpagetitle>
+    <wikimode>collaborative</wikimode>
+    <defaultformat>html</defaultformat>
+    <forceformat>0</forceformat>
+    <editbegin>0</editbegin>
+    <editend>0</editend>
+    <subwikis>
+    </subwikis>
+  </wiki>
+</activity>

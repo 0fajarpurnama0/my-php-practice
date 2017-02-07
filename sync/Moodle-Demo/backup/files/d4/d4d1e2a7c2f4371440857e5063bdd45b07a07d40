@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Recommended Preparation | First Step In Popular Computer Subject </title>
+<meta http-equiv="content-language" content="en" />
+<meta name="author" content="Fajar Purnama" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Show",hide:"Hide",showFeedback:"Show Feedback",hideFeedback:"Hide Feedback",correct:"Correct",incorrect:"Incorrect",menu:"Menu"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Recommended Preparation</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id28">
+<div class="iDevice emphasis0">
+<div id="ta28_85" class="block iDevice_content">
+<p>For programming you might want to use online compilers if you don't have your own. For example <a href="http://www.tutorialspoint.com/codingground.htm">http://www.tutorialspoint.com/codingground.htm</a> as shown below.</p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ExternalUrlIdevice" id="id27">
+<div class="iDevice emphasis0" >
+<div class="iDevice_content">
+<iframe src="http://www.tutorialspoint.com/codingground.htm" width="100%" height="300px"></iframe>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id29">
+<div class="iDevice emphasis0">
+<div id="ta29_85" class="block iDevice_content">
+<p>We are using Linux, better than pirated Windows and Mac. It's highly recommended to use open source software than cracked software.</p>
+<p><a href="http://www.ubuntu.com/">http://www.ubuntu.com/</a></p>
+<p><a href="https://www.debian.org/">https://www.debian.org/</a></p>
+<p><a href="https://www.kali.org/">https://www.kali.org/</a></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ExternalUrlIdevice" id="id31">
+<div class="iDevice emphasis0" >
+<div class="iDevice_content">
+<iframe src="http://www.ubuntu.com/download/desktop" width="100%" height="300px"></iframe>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ExternalUrlIdevice" id="id32">
+<div class="iDevice emphasis0" >
+<div class="iDevice_content">
+<iframe src="https://www.debian.org/CD/live/" width="100%" height="300px"></iframe>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ExternalUrlIdevice" id="id34">
+<div class="iDevice emphasis0" >
+<div class="iDevice_content">
+<iframe src="https://www.kali.org/" width="100%" height="300px"></iframe>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id35">
+<div class="iDevice emphasis0">
+<div id="ta35_85" class="block iDevice_content">
+<p>If you're doing computer networks is very good if you get hold of legal Cisco Packet Tracer software (usually you have to join Cisco Academy). If you don't you can use the same software as the authors, we used Core-Network <a href="http://www.nrl.navy.mil/itd/ncs/products/core">http://www.nrl.navy.mil/itd/ncs/products/core</a>. </p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ExternalUrlIdevice" id="id36">
+<div class="iDevice emphasis0" >
+<div class="iDevice_content">
+<iframe src="http://www.nrl.navy.mil/itd/ncs/products/core" width="100%" height="300px"></iframe>
+</div>
+</div>
+</div>
+</div>
+<p align="center">Licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p></div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

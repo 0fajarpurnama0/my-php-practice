@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="23" modulename="lesson" contextid="66">
+  <lesson id="3">
+    <course>4</course>
+    <name>2. Start Writing</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449532659</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="7">
+        <prevpageid>0</prevpageid>
+        <nextpageid>16</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449128612</timecreated>
+        <timemodified>1449533070</timemodified>
+        <title>2.1 Note</title>
+        <contents>&lt;p&gt;There are many tutorials already available online if you want to start learning a programming language, but here we will try to give you a point of where to start, provide a comfortable track until you become familiar with beginner programming. I started with Pascal then C, so this will be first example for every content. Examples are written in various programming language (in the future we would like to make it available in all programming language). If you want to start quickly I suggest viewing the content that had online compiler available (NOTE: Online compiler coming soon!!). (Python, PHP, Ruby, C++ coming soon)&lt;br&gt;&lt;/p&gt;&lt;p&gt; Following suggest setting up environments if you want to do programming at you own computer but &lt;u&gt;you may skip to next section if don't want the hassle&lt;/u&gt; and later on you may come back here. The programmings that will be cover are freeware or opensource so programming like Visual Basic or Matlab will not be covered here. What you need for this course are:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Operating System (OS): we suggest using Linux because most of the compiler are installed by default, but you may use other like MAC or Windows.&lt;/li&gt;&lt;li&gt;Text editor: anything is ok even the simplest as notepad and wordpad, all that is needed is being able to write the script and save it. Some good example editors with color are VIM, GVIM, Notepad ++, or you may have an editor of certain programming language like Turbo Pascal and Codeblocks.&lt;/li&gt;&lt;li&gt;Compiler: this is the last thing you need, most Linux distribution already equipped with a compiler. If you don't know or don't have the compiler just search on the Internet for Pascal compiler for example. For Windows may asked you to download Turbo Pascal, for Linux mainly Ubuntu or Debian distribution may ask you to install by type "apt-get install fp-compiler". If you want C compiler search on the Internet for C compiler.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="11">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449128612</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Excercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="16">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449128612</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="10">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449143322</timeseen>
+            <nextpageid>8</nextpageid>
+          </branch>
+          <branch id="16">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449533042</timeseen>
+            <nextpageid>7</nextpageid>
+          </branch>
+          <branch id="17">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449533045</timeseen>
+            <nextpageid>7</nextpageid>
+          </branch>
+          <branch id="18">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449533049</timeseen>
+            <nextpageid>-9</nextpageid>
+          </branch>
+          <branch id="19">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449533080</timeseen>
+            <nextpageid>16</nextpageid>
+          </branch>
+        </branches>
+      </page>
+      <page id="16">
+        <prevpageid>7</prevpageid>
+        <nextpageid>8</nextpageid>
+        <qtype>5</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449532898</timecreated>
+        <timemodified>1449533164</timemodified>
+        <title>What you need</title>
+        <contents>&lt;p&gt;What 3 things you need in order to make a program based on the first page?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="31">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449532898</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text></answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="32">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449532898</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text></answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="33">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449532898</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;1. You need a PC and platform.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>Operating System (OS)</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="34">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449532898</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;2. You may write your program.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>Text Editor</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="35">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449532898</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;3. You make a program into an executable file.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>Compiler</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="9">
+        <prevpageid>8</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449142960</timecreated>
+        <timemodified>1449143208</timemodified>
+        <title>2.3 First Script in C</title>
+        <contents>&lt;p&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;Here's a link to one of online pascal compiler provided by &lt;a href="http://www.tutorialspoint.com/compile_c_online.php"&gt;http://www.tutorialspoint.com/compile_c_online.php&lt;/a&gt;.
+ You can search the Internet for online compilers. The code for now is 
+not colored, we suggest copy and pasting the code into an online 
+compiler, or your editor if supports color like GVIM and Notepad ++. The
+ "Hello World!" script is very famous in programming world to be as the 
+first program to write. The goal of the program is to produce an output 
+"Hello World!".&lt;br&gt;
+&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include&amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&amp;nbsp;printf("Hello, World!");&lt;br&gt;&amp;nbsp;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;&lt;div style="text-align: left;"&gt;If you use the online compiler from 
+tutorialspoint, overwrite the script, compile and execute. If you're 
+using Linux save the file into "hello.c" for example and write "gcc 
+hello.c -o hello". It will produce an executable file "hello", then type 
+"./hello" to run the file.&lt;br&gt;&lt;br&gt;The next lesson is using variables. We can define a variable as a boolean, number, string, and many other variables. &lt;i&gt;It's
+ recommended to copy, paste, run the script, and see its output first. 
+That way is easier than thoroughly identifying the code first. &lt;/i&gt;The 
+program example below is defining "firstname" and "lastname" as a string
+ with the value of "firstname" is "Fajar" and "lastname" is Purnama. 
+Then a variable from "a" to "g" is defined as integer with "a" and "b" 
+initialized. Then we perform simple math operation.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main() {&lt;br&gt;&lt;br&gt;char * firstname = "Fajar";&lt;br&gt;char * lastname = "Purnama";&lt;br&gt;&lt;br&gt;printf("Hi!, My name is %s %s.\n", firstname, lastname);&lt;br&gt;printf("I would like to do simple math calculation:\n");&lt;br&gt;&lt;br&gt;int a,b,c,d,e,f,g;&lt;br&gt;&lt;br&gt;a = 6;&lt;br&gt;b = 4;&lt;br&gt;c = a + b;&lt;br&gt;d = a - b;&lt;br&gt;e = a * b;&lt;br&gt;f = a / b;&lt;br&gt;g = a % b;&lt;br&gt;&lt;br&gt;printf("%d + %d = %d\n", a, b, c);&lt;br&gt;printf("%d - %d = %d\n", a, b, d);&lt;br&gt;printf("%d * %d = %d\n", a, b, e);&lt;br&gt;printf("%d / %d = %d\n", a, b, f);&lt;br&gt;printf("%d mod %d = %d\n", a, b, g);&lt;br&gt;&lt;br&gt;return 0;&lt;br&gt;}&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;The last of this section is using user input. If the previous 
+script we manually define "firstname", "lastname", "a", and "b", next we
+ let the user define them after the program is run. Simply use the 
+syntax "scanf". For the numbers we have to change for "a" to "&amp;amp;a" and so. That's covered in advance topic for now.&lt;br&gt;&lt;p style="text-align: left;"&gt;&lt;br&gt;
+&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;&lt;br&gt;int main () {&lt;br&gt;&lt;br&gt;char firstname[20], lastname[20];&lt;br&gt;&lt;br&gt;printf("What is your first name? "); scanf("%s", firstname);&lt;br&gt;printf("What is your last name? "); scanf("%s", lastname);&lt;br&gt;&lt;br&gt;printf("Hi!, My name is %s %s.\n", firstname, lastname);&lt;br&gt;printf("I would like to do simple math calculation:\n");&lt;br&gt;&lt;br&gt;float a,b,c,d,e,f;&lt;br&gt;&lt;br&gt;printf("Input first number: "); scanf("%f", &amp;amp;a);&lt;br&gt;printf("Input second number: "); scanf("%f", &amp;amp;b);&lt;br&gt;&lt;br&gt;c = a + b;&lt;br&gt;d = a - b;&lt;br&gt;e = a * b;&lt;br&gt;f = a / b;&lt;br&gt;&lt;br&gt;printf("%f + %f = %f\n", a, b, c);&lt;br&gt;printf("%f - %f = %f\n", a, b, d);&lt;br&gt;printf("%f * %f = %f\n", a, b, e);&lt;br&gt;printf("%f / %f = %f\n", a, b, f);&lt;br&gt;&lt;br&gt;return 0;&lt;br&gt;}&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="13">
+            <jumpto>7</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449142960</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>2.1 Note</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="14">
+            <jumpto>8</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449142960</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>2.2 First Script in Pascal</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="18">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449142960</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Finish</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="12">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449143992</timeseen>
+            <nextpageid>8</nextpageid>
+          </branch>
+        </branches>
+      </page>
+      <page id="8">
+        <prevpageid>16</prevpageid>
+        <nextpageid>9</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449132213</timecreated>
+        <timemodified>1449143196</timemodified>
+        <title>2.2 First Script in Pascal</title>
+        <contents>&lt;p style="text-align: left;"&gt;Here's a link to one of online pascal compiler provided by &lt;a href="http://www.tutorialspoint.com/compile_pascal_online.php"&gt;http://www.tutorialspoint.com/compile_pascal_online.php&lt;/a&gt;. You can search the Internet for online compilers. The code for now is not colored, we suggest copy and pasting the code into an online compiler, or your editor if supports color like GVIM and Notepad ++. The "Hello World!" script is very famous in programming world to be as the first program to write. The goal of the program is to produce an output "Hello World!".&lt;br&gt;
+&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;Program HelloWorld;&lt;br&gt;begin&lt;br&gt;&amp;nbsp; writeln('Hello, world!');&lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;&lt;div style="text-align: left;"&gt;If you use the online compiler from tutorialspoint, overwrite the script, compile and execute. If you're using Linux save the file into "hello.pas" for example and write "fpc hello.pas". It will produce an executable file "hello" you type "./hello" to run the file.&lt;br&gt;&lt;br&gt;The next lesson is using variables. We can define a variable as a boolean, number, string, and many other variables. &lt;i&gt;It's recommended to copy, paste, run the script, and see its output first. That way is easier than thoroughly identifying the code first. &lt;/i&gt;The program example below is defining "firstname" and "lastname" as a string with the value of "firstname" is "Fajar" and "lastname" is Purnama. Then a variable from "a" to "g" is defined as integer with "a" and "b" initialized. Then we perform simple math operation.&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;program variables;&lt;br&gt;&lt;br&gt;var &lt;br&gt;&amp;nbsp; firstname, lastname: string;&lt;br&gt;&amp;nbsp; a,b,c,d,e,f,g : integer;&lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;firstname := 'Fajar';&lt;br&gt;&amp;nbsp;lastname := 'Purnama';&lt;br&gt;&lt;br&gt;&amp;nbsp;write('Hi! My name is ', firstname, lastname); writeln('I would like to perform simple math operation');&lt;br&gt;&lt;br&gt;&amp;nbsp;a := 9;&lt;br&gt;&amp;nbsp;b := 4;&lt;br&gt;&amp;nbsp;c := a+b;&lt;br&gt;&amp;nbsp;d := a-b;&lt;br&gt;&amp;nbsp;e := a*b;&lt;br&gt;&amp;nbsp;f := a div b;&lt;br&gt;&amp;nbsp;g := a mod b;&lt;br&gt;&lt;br&gt;&amp;nbsp;writeln(a,' + ',b,' = ',c);&lt;br&gt;&amp;nbsp;writeln(b,' - ',a,' = ',d);&lt;br&gt;&amp;nbsp;writeln(a,' * ',b,' = ',e);&lt;br&gt;&amp;nbsp;writeln(b,' div ',a,' = ',f);&lt;br&gt;&amp;nbsp;writeln(b,' mod ',a,' = ',g);&lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;The last of this section is using user input. If the previous script we manually define "firstname", "lastname", "a", and "b", next we let the user define them after the program is run. Simply use the syntax "read" or "readln".&lt;br&gt;&lt;p style="text-align: left;"&gt;&lt;br&gt;
+&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;table align="center" width="800"&gt;
+
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;" scope="col"&gt;program variables;&lt;br&gt;&lt;br&gt;var &lt;br&gt;&amp;nbsp; firstname, lastname: string;&lt;br&gt;&amp;nbsp; a,b,c,d,e : integer;&lt;br&gt;&amp;nbsp; f : real; &lt;br&gt;&lt;br&gt;begin&lt;br&gt;&amp;nbsp;write('What is your firstname? '); readln(firstname);&lt;br&gt;&amp;nbsp;write('What is your lastname? '); readln(lastname);&lt;br&gt;&lt;br&gt;&amp;nbsp;write('Hi! My name is ', firstname, lastname); writeln('. I would like to perform simple math operation');&lt;br&gt;&lt;br&gt;&amp;nbsp;write('Input first number: '); readln(a);&lt;br&gt;&amp;nbsp;write('Input second number: '); readln(b);&lt;br&gt;&lt;br&gt;&amp;nbsp;c := a+b;&lt;br&gt;&amp;nbsp;d := a-b;&lt;br&gt;&amp;nbsp;e := a*b;&lt;br&gt;&amp;nbsp;f := a / b;&lt;br&gt;&lt;br&gt;&amp;nbsp;writeln(a,' + ',b,' = ',c);&lt;br&gt;&amp;nbsp;writeln(a,' - ',b,' = ',d);&lt;br&gt;&amp;nbsp;writeln(a,' * ',b,' = ',e);&lt;br&gt;&amp;nbsp;writeln(a,' / ',b,' = ',f);&lt;br&gt;end.&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="12">
+            <jumpto>7</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449132213</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>2.1 Note</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="15">
+            <jumpto>9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449132213</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>2.3 First Script in C</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="17">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449132213</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Finish</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="11">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449143328</timeseen>
+            <nextpageid>9</nextpageid>
+          </branch>
+          <branch id="15">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449533039</timeseen>
+            <nextpageid>7</nextpageid>
+          </branch>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

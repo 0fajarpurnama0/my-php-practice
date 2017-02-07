@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="31" modulename="glossary" contextid="74">
+  <glossary id="3">
+    <name>First SIght of Computer Network Glossary</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <allowduplicatedentries>0</allowduplicatedentries>
+    <displayformat>dictionary</displayformat>
+    <mainglossary>0</mainglossary>
+    <showspecial>1</showspecial>
+    <showalphabet>1</showalphabet>
+    <showall>1</showall>
+    <allowcomments>0</allowcomments>
+    <allowprintview>1</allowprintview>
+    <usedynalink>1</usedynalink>
+    <defaultapproval>1</defaultapproval>
+    <globalglossary>0</globalglossary>
+    <entbypage>10</entbypage>
+    <editalways>0</editalways>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>100</scale>
+    <timecreated>1449225150</timecreated>
+    <timemodified>1449225150</timemodified>
+    <completionentries>0</completionentries>
+    <entries>
+      <entry id="3">
+        <userid>2</userid>
+        <concept>Internet</concept>
+        <definition>&lt;p&gt;interconnecting Network&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765046</timecreated>
+        <timemodified>1449765046</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="4">
+        <userid>2</userid>
+        <concept>OSI</concept>
+        <definition>&lt;p&gt;Open System Interconnection&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765066</timecreated>
+        <timemodified>1449765066</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="5">
+        <userid>2</userid>
+        <concept>LAN</concept>
+        <definition>&lt;p&gt;Local Area Network&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765082</timecreated>
+        <timemodified>1449765082</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="6">
+        <userid>2</userid>
+        <concept>WAN</concept>
+        <definition>&lt;p&gt;Wide Area Network&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765094</timecreated>
+        <timemodified>1449765094</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="7">
+        <userid>2</userid>
+        <concept>IP</concept>
+        <definition>&lt;p&gt;&lt;b&gt;&lt;/b&gt;Internet Protocol&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765117</timecreated>
+        <timemodified>1449765117</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="8">
+        <userid>2</userid>
+        <concept>RIP</concept>
+        <definition>&lt;p&gt;Routing Information Protocol&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765139</timecreated>
+        <timemodified>1449765139</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="9">
+        <userid>2</userid>
+        <concept>DHCP</concept>
+        <definition>&lt;p&gt;Dynamic Host Configuration Protocol&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765157</timecreated>
+        <timemodified>1449765157</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="10">
+        <userid>2</userid>
+        <concept>DNS</concept>
+        <definition>&lt;p&gt;Domain Name Service&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765175</timecreated>
+        <timemodified>1449765175</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="11">
+        <userid>2</userid>
+        <concept>HTTP</concept>
+        <definition>&lt;p&gt;Hyper Text Transfer Protocol&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765204</timecreated>
+        <timemodified>1449765204</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="12">
+        <userid>2</userid>
+        <concept>HTML</concept>
+        <definition>&lt;p&gt;Hyper Text Markup Language&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765234</timecreated>
+        <timemodified>1449765234</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="19">
+        <userid>2</userid>
+        <concept>Core-Network</concept>
+        <definition>&lt;p&gt;[Please Fill]&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765455</timecreated>
+        <timemodified>1449765455</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="20">
+        <userid>2</userid>
+        <concept>Routing</concept>
+        <definition>&lt;p&gt;[please fill]&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1449765483</timecreated>
+        <timemodified>1449765483</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>0</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>0</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+    </entries>
+    <categories>
+    </categories>
+  </glossary>
+</activity>

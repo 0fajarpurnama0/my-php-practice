@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="3" contextid="32">
+  <shortname>First Step</shortname>
+  <fullname>Taking The First Step</fullname>
+  <idnumber></idnumber>
+  <summary>&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;br&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <format>topics</format>
+  <showgrades>1</showgrades>
+  <newsitems>5</newsitems>
+  <startdate>1447340400</startdate>
+  <marker>0</marker>
+  <maxbytes>0</maxbytes>
+  <legacyfiles>0</legacyfiles>
+  <showreports>1</showreports>
+  <visible>1</visible>
+  <groupmode>2</groupmode>
+  <groupmodeforce>0</groupmodeforce>
+  <defaultgroupingid>0</defaultgroupingid>
+  <lang></lang>
+  <theme></theme>
+  <timecreated>1447308524</timecreated>
+  <timemodified>1448538152</timemodified>
+  <requested>0</requested>
+  <enablecompletion>0</enablecompletion>
+  <completionnotify>0</completionnotify>
+  <numsections>9</numsections>
+  <hiddensections>1</hiddensections>
+  <coursedisplay>0</coursedisplay>
+  <category id="1">
+    <name>Miscellaneous</name>
+    <description>$@NULL@$</description>
+  </category>
+  <tags>
+  </tags>
+</course>

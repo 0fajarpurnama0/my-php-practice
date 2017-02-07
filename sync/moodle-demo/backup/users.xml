@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="2" contextid="5">
+    <username>fajar.purnama</username>
+    <idnumber></idnumber>
+    <email>fajar@hicc.cs.kumamoto-u.ca.jp</email>
+    <icq></icq>
+    <skype></skype>
+    <yahoo></yahoo>
+    <aim></aim>
+    <msn></msn>
+    <phone1></phone1>
+    <phone2></phone2>
+    <institution></institution>
+    <department></department>
+    <address></address>
+    <city>Denpasar</city>
+    <country>ID</country>
+    <lastip>192.168.56.1</lastip>
+    <picture>0</picture>
+    <url></url>
+    <description></description>
+    <descriptionformat>1</descriptionformat>
+    <imagealt>$@NULL@$</imagealt>
+    <auth>manual</auth>
+    <firstnamephonetic></firstnamephonetic>
+    <lastnamephonetic></lastnamephonetic>
+    <middlename></middlename>
+    <alternatename></alternatename>
+    <firstname>Fajar</firstname>
+    <lastname>Purnama</lastname>
+    <confirmed>1</confirmed>
+    <policyagreed>0</policyagreed>
+    <deleted>0</deleted>
+    <lang>en</lang>
+    <theme></theme>
+    <timezone>Asia/Tokyo</timezone>
+    <firstaccess>1454834169</firstaccess>
+    <lastaccess>1454897742</lastaccess>
+    <lastlogin>1454834169</lastlogin>
+    <currentlogin>1454897068</currentlogin>
+    <mailformat>1</mailformat>
+    <maildigest>0</maildigest>
+    <maildisplay>1</maildisplay>
+    <autosubscribe>1</autosubscribe>
+    <trackforums>0</trackforums>
+    <timecreated>0</timecreated>
+    <timemodified>1454834316</timemodified>
+    <trustbitmask>0</trustbitmask>
+    <custom_fields>
+    </custom_fields>
+    <tags>
+    </tags>
+    <preferences>
+      <preference id="1">
+        <name>auth_manual_passwordupdatetime</name>
+        <value>1454834316</value>
+      </preference>
+      <preference id="2">
+        <name>email_bounce_count</name>
+        <value>1</value>
+      </preference>
+      <preference id="3">
+        <name>email_send_count</name>
+        <value>1</value>
+      </preference>
+      <preference id="4">
+        <name>filepicker_recentrepository</name>
+        <value>4</value>
+      </preference>
+      <preference id="5">
+        <name>filepicker_recentlicense</name>
+        <value>allrightsreserved</value>
+      </preference>
+      <preference id="9">
+        <name>userselector_preserveselected</name>
+        <value>0</value>
+      </preference>
+      <preference id="10">
+        <name>userselector_autoselectunique</name>
+        <value>0</value>
+      </preference>
+      <preference id="11">
+        <name>userselector_searchanywhere</name>
+        <value>0</value>
+      </preference>
+    </preferences>
+    <roles>
+      <role_overrides>
+      </role_overrides>
+      <role_assignments>
+      </role_assignments>
+    </roles>
+  </user>
+  <user id="3" contextid="25">
+    <username>fajar.purnama.clearos</username>
+    <idnumber></idnumber>
+    <email>fajar.purnama@yahoo.com</email>
+    <icq></icq>
+    <skype></skype>
+    <yahoo></yahoo>
+    <aim></aim>
+    <msn></msn>
+    <phone1></phone1>
+    <phone2></phone2>
+    <institution></institution>
+    <department></department>
+    <address></address>
+    <city>Denpasar</city>
+    <country>ID</country>
+    <lastip>192.168.56.1</lastip>
+    <picture>0</picture>
+    <url></url>
+    <description></description>
+    <descriptionformat>1</descriptionformat>
+    <imagealt></imagealt>
+    <auth>manual</auth>
+    <firstnamephonetic></firstnamephonetic>
+    <lastnamephonetic></lastnamephonetic>
+    <middlename></middlename>
+    <alternatename></alternatename>
+    <firstname>Fajar</firstname>
+    <lastname>Purnama</lastname>
+    <confirmed>1</confirmed>
+    <policyagreed>0</policyagreed>
+    <deleted>0</deleted>
+    <lang>en</lang>
+    <theme></theme>
+    <timezone>99</timezone>
+    <firstaccess>1454897769</firstaccess>
+    <lastaccess>1455247994</lastaccess>
+    <lastlogin>1454897769</lastlogin>
+    <currentlogin>1455245537</currentlogin>
+    <mailformat>1</mailformat>
+    <maildigest>0</maildigest>
+    <maildisplay>2</maildisplay>
+    <autosubscribe>1</autosubscribe>
+    <trackforums>0</trackforums>
+    <timecreated>1454897677</timecreated>
+    <timemodified>1454897677</timemodified>
+    <trustbitmask>0</trustbitmask>
+    <custom_fields>
+    </custom_fields>
+    <tags>
+    </tags>
+    <preferences>
+      <preference id="6">
+        <name>auth_forcepasswordchange</name>
+        <value>0</value>
+      </preference>
+      <preference id="7">
+        <name>email_bounce_count</name>
+        <value>1</value>
+      </preference>
+      <preference id="8">
+        <name>email_send_count</name>
+        <value>1</value>
+      </preference>
+      <preference id="12">
+        <name>filepicker_recentrepository</name>
+        <value>4</value>
+      </preference>
+      <preference id="13">
+        <name>filepicker_recentlicense</name>
+        <value>allrightsreserved</value>
+      </preference>
+    </preferences>
+    <roles>
+      <role_overrides>
+      </role_overrides>
+      <role_assignments>
+      </role_assignments>
+    </roles>
+  </user>
+</users>

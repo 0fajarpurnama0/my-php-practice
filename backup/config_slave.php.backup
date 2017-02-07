@@ -1,0 +1,26 @@
+<?
+
+global $config;
+global $dl_info;
+
+$config['mysql_server'] = 'localhost';
+$config['mysql_user'] = 'root';
+$config['mysql_pass'] = '<0666Darkness6660>';
+$config['mysql_dbname'] = 'moodle19experimentslave';
+$config['master_url'] = 'http://127.0.0.1/php-practice/syncphp/master/master_server.php';
+$config['moodledata'] = '/var/www/moodledata-19-experiment-slave';
+$config['moodlewwwroot'] = 'http://127.0.0.1/moodle-19-experiment-slave/';
+
+$config['proxy_usage']= 0 ;
+$config['proxy_server'] = '202.46.129.19:8080';
+$config['proxy_user'] = 'roy@its.ac.id';
+$config['proxy_password'] = '123';
+
+// mailbox for receiving updates
+
+$config['imap'][0]['imap_server']='fajar@st.cs.kumamoto-u.ac.jp';
+$config['imap'][0]['imap_user']='fajar';
+$config['imap'][0]['imap_server']='mail.st.cs.kumamoto-u.ac.jp';
+
+
+?>

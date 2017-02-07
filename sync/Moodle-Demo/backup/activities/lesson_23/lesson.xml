@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="7" moduleid="23" modulename="lesson" contextid="59">
+  <lesson id="7">
+    <course>3</course>
+    <name>3. Simple Routing</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449543208</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="24">
+        <prevpageid>0</prevpageid>
+        <nextpageid>25</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449543534</timecreated>
+        <timemodified>1449768089</timemodified>
+        <title>3.1 Default Gateway</title>
+        <contents>&lt;p&gt;On our PCs on everyday life we at least have 4 configuration that we need set which are (1) IP address (2) Subnet Mask (3) Default Gateway (4) Dns Server, as on Figure 3.1.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Client-Network-Configuration.png" alt="Gnome GUI Network Configurator on Kali Linux" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="562" width="725"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.1 Common PC network configuration&lt;/p&gt;&lt;p style="text-align: left;"&gt;If on the previous assignment you were using Core Network to simulate a simple WAN, the default gateway or route on each PCs are automatically set (also the IP address on the PCs and Router). What if we're on the situation to set it manually? Considering we have a PC and want to connect to the Internet on an available network that gives access to The Internet. Roughly a peer said "you may connect to our switch, our network is 192.168.7.0/24, and the router's inside IP address is 192.168.7.1/24, (psssst, for DNS just use Google's for now)". With that information we configure our PC as example on Figure 3.2:&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Network-Configuration-Filled.png" alt="Filled-Client-Network-Configuration" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="560" width="727"&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.2 Filled Manual Host Network Configuration&lt;/p&gt;&lt;p style="text-align: left;"&gt;Now what is a default gateway? On this configuration a default gateway is the gate we go through to connect to another network, or a door to get out of our network. On our PC's configuration is the door to connect to The Internet. We can illustrate this as house, our house had many rooms with each room has its own address. Where do we go to go to another house? The answer is the "front door" which is equivalent to the "default gateway".&amp;nbsp; &lt;br&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;Next let's try connecting 2 LANs and manually configuring them. Say the previous&amp;nbsp; network is 192.168.7.0/24 and we want to connect it to a neighbor network of 192.168.8.0/24. It's best we generate a table as in section 2, then to test whether we can go to our neighbor using "trace route" command on Figure 3.3. From 192.168.7.20/24 To reach the neighboring network first must go through the interface of router that has the address of 192.168.7.1/24 (default gateway), then it reaches the destination 192.168.8.20/24.&lt;br&gt;
+&lt;/p&gt;&lt;table&gt;
+&lt;caption&gt;&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center;" scope="col"&gt;Subnet Mask&lt;br&gt;&lt;/th&gt;
+&lt;th style="text-align: center;" scope="col"&gt;Network ID&lt;br&gt;&lt;/th&gt;
+&lt;th style="text-align: center;" scope="col"&gt;Default Gateway&lt;br&gt;&lt;/th&gt;
+&lt;th style="text-align: center;" scope="col"&gt;Host ID&lt;br&gt;&lt;/th&gt;
+&lt;th style="text-align: center;" scope="col"&gt;Broadcast ID&lt;br&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;255.255.255.0 or /24&lt;br&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;192.168.7.0&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;192.168.7.1&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;192.168.7.2 - 192.168.7.254&lt;br&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;192.168.7.255&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;255.255.255.0 or /24&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;192.168.8.0&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;192.168.8.1&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;192.168.8.2 - 192.168.8.254&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;192.168.8.255&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div style="text-align: center;"&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Traceroute_edit.png" alt="traceroute to 192.168.7.1/24 then reaches  192.168.8.20/24" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="634" width="1276"&gt;&lt;br&gt;&lt;/div&gt;Figure 3.3 Trace routing on neighboring network on Core&lt;br&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;&lt;iframe src="https://www.youtube.com/embed/ZCisGc3qzls" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="65">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543534</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="25">
+        <prevpageid>24</prevpageid>
+        <nextpageid>28</nextpageid>
+        <qtype>2</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449642011</timecreated>
+        <timemodified>0</timemodified>
+        <title>Default Gateway</title>
+        <contents>&lt;p&gt;Suppose on Figure 3.3 below, the PC with IP address 192.168.8.21/24 wants to communicate with 192.168.7.21/24. Where does it needs to pass through? Try checking with trace route.&lt;/p&gt;&lt;p&gt;&lt;img src="@@PLUGINFILE@@/Traceroute.png" alt="Router" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="634" width="1276"&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="70">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449642011</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;1. 192.168.8.1&lt;/p&gt;&lt;p&gt;2. 192.168.7.21&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Ok!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="71">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449642011</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;p&gt;1. 192.168.7.1&lt;/p&gt;&lt;p&gt;2. 192.168.7.21&lt;/p&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Wrong way!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="28">
+        <prevpageid>25</prevpageid>
+        <nextpageid>26</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449543561</timecreated>
+        <timemodified>1449768139</timemodified>
+        <title>3.2 Static Routing</title>
+        <contents>&lt;p&gt;&lt;u&gt;You might need to properly install and configure Quagga to perform this simulation. Please search for tutorials (simulation setup coming soon)&lt;/u&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Internet is said to be the largest WAN in the World, so routing is not something we can ignore. The first form of routing is static routing where we form our path manually. If we have many connections (interface) on our PCs we can set its routing, but by default the only route is via default gateway. On the previous section when we set the default gateway 192.168.7.1 means that to go anywhere else other than the local network we go through 192.168.7.1, or we can say it "default via 192.168.7.1", or "0.0.0.0/0 via 192.168.7.1", means "[to go anywhere] [via] [192.168.7.1]". This is a static route but a default one. Say that we want to connect to another WAN, our router must know the route. Manually we teach the router (static route) on Figure 3.4 and Figure 3.5.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/srconf4.png" alt="Configuring R1 connected to 192.168.7.0/24 and 192.168.8.0/24" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.4 Static routing configuration of R1&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/srconf5.png" alt="Configuring R2 connected to 192.168.1.0/24" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.5 Static routing configuration of R2&lt;/p&gt;&lt;p style="text-align: left;"&gt;Connecting R1 and R2 cost us another LAN, in other words connection of 
+R1 and R2 is on LAN 192.168.0.0/24. On Figure 3.4 we want to tell R1 
+that to go to network 192.168.1.0/24 is through R2. So the command is ip route add 192.168.1.0/24 via 192.168.0.1. n Figure 3.4 we want to tell R2 
+that to go to network 192.168.7.0/24 and 192.168.8.0/24 is through R2. So 2 commands are involved because we want to define for 2 networks, are ip route add 192.168.7.0/24 via 192.168.0.2 and ip route add 192.168.8.0/24 via 192.168.0.2. Setting only one of the router will not do, since in reality we exchange informations 2 ways. We be able to send a message to other side, but the other side won't know which way to go to reply the message. &lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/srconf.gif" alt="Click R1, service, then static route" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.6 GIF Image to activate static route configuration&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/srtr.gif" alt="1. 192.168.7.1 ... ms, 2. 192.168.0.1 ... ms, 3. 192.168.1.20 ... ms and 1. 192.168.1.1 ... ms, 2. 192.168.0.2 ... ms, 3. 192.168.8.21 ... ms" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="767" width="1365"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.7 GIF image in trace routing from n1 to n10 and n11 to n6&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;On Figure 3.6 is a GIF image to set a static route on a router in Core-Network. Finally on Figure 3.7 we check whether the networks are connected using trace route. From n1 to n10 we see that it will go through the first router on gateway 192.168.7.1, then R1 routes it to R2 on gateway 192.168.0.1, which in the end reaches 192.168.1.20. Next we tried from n11 to n6, we see that it will go through the first router on gateway 192.168.1.1,
+ then R2 routes it to R1 on gateway 192.168.0.2, which in the end 
+reaches 192.168.8.21.&lt;br&gt;&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;&lt;iframe src="https://www.youtube.com/embed/7wVJQTu5H3E" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="66">
+            <jumpto>24</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543561</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="67">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543561</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Exercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="29">
+        <prevpageid>26</prevpageid>
+        <nextpageid>27</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449543603</timecreated>
+        <timemodified>1449768188</timemodified>
+        <title>3.3 Dynamic Routing</title>
+        <contents>&lt;p&gt;Imagine how much static route you must configure on the scale of a network like The Internet. It'll still be better if The Internet is a fixed size but in reality is growing larger every second, on top of that configurations may changes every time. Static route is inefficient to implement, instead why not let the router search for the route for themselves? With us only teaching them the method of how to find a route. As the headline of the section, that is dynamic routing which is an automatic/self update routing based on the defined method. We will cover only the way to configure a router information protocol (RIP) dynamic routing (not even the theory behind it), as further is out the syllabus. &lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/dripconf8edit.png" alt="Add neighboring network 192.168.7.0/24, 192.168.8.0/24, and 192.168.0.0/24 to RIP configuration" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.8 RIP configuration on R1&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/dripconf11edit.png" alt="Add neighboring network 192.168.1.0/24 and 192.168.0.0/24 to RIP configuration" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.9 RIP configuration on R2&lt;br&gt;&lt;/p&gt;&lt;p&gt;On Figure 3.8 is the RIP configuration of R1 where we add the networks 192.168.7.0/24, 192.168.8.0/24, 192.168.0.0/24, and on Figure 3.9 is the RIP configuration of R2 where we add the networks 192.168.1.0/24, 192.168.0.0/24. Basically we give the information of the networks that is directly connected to router on the RIP configuration. If I'm correct, using RIP will make routers exchange informations with each other of which networks are attached to them. If we want to add another network then we just need to add the network ID, unlike static routing which we must manually define the gateway. Without doubt on that the networks will be connected as on Figure 3.10.&amp;nbsp;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/drtr.gif" alt="tracerouting almost the same as section 3.2" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.10 GIF image of trace routing&lt;br&gt;&lt;/p&gt;&lt;p&gt;How to open configuration of RIP on Core-Network is on Figure 3.11. Lastly, on this section this might be RIPv1 (I haven't check) and if it so it will not support classless networks (other than /8, /16, /24), so try the RIPv2 or other dynamic routing protocols.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/dripconf.gif" alt="Similar to section 2, this time choose RIP and it will state that the configuration is on Zebra, so edit there, and disable static route." style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.11 GIF image of configuring RIP on Core-Network&lt;br&gt;&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;&lt;iframe src="https://www.youtube.com/embed/ykBDFIDpG-Q" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="68">
+            <jumpto>28</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543603</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="69">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543603</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Excercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="26">
+        <prevpageid>28</prevpageid>
+        <nextpageid>29</nextpageid>
+        <qtype>2</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449724646</timecreated>
+        <timemodified>0</timemodified>
+        <title>Summary</title>
+        <contents>&lt;p&gt;Which of the static route command is correct?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="72">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449724646</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;ip route network via gateway&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Good...&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="73">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449724646</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;ip route gateway via network&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Not this one&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="27">
+        <prevpageid>29</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449729148</timecreated>
+        <timemodified>0</timemodified>
+        <title>Review</title>
+        <contents>&lt;p&gt;Considering R2 is properly configured, and now we want to configure the RIP dynamic routing of R1 of figure below. Which one is correct?&lt;/p&gt;&lt;p&gt;&lt;img src="@@PLUGINFILE@@/dripconf1.png" alt="R2 connected to 192.168.1.0/24 and 192.168.0.0/24 while R1 is connected to 192.168.7.0/24, 192.168.8.0/24, and 192.168.0.0/24" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="74">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449729148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;router RIP&lt;/p&gt;&lt;p&gt;network 192.168.0.0/24&lt;/p&gt;&lt;p&gt;network 192.168.1.0/24&lt;/p&gt;&lt;p&gt;network 192.168.7.0/24&lt;/p&gt;&lt;p&gt;network 192.168.8.0/24&lt;/p&gt;</answer_text>
+            <response>This configuration works, but it's too much and hardly unecessary.&lt;br&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="75">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449729148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;p&gt;router RIP&lt;/p&gt;&lt;p&gt;network 192.168.0.0/24&lt;/p&gt;&lt;p&gt;network 192.168.1.0/24&lt;/p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;This is configuration on R2!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="76">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449729148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;router RIP&lt;/p&gt;&lt;p&gt;network 192.168.7.0/24&lt;/p&gt;&lt;p&gt;network 192.168.8.0/24&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;You missed the network that connects R1 and R2!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="77">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449729148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;p&gt;router RIP&lt;/p&gt;&lt;p&gt;network 192.168.0.0/24&lt;/p&gt;&lt;p&gt;network 192.168.7.0/24&lt;/p&gt;&lt;p&gt;network 192.168.8.0/24&lt;/p&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Correct!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

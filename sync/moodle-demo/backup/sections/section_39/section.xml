@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="39">
+  <number>3</number>
+  <name>Having a Taste of Being a Hacker</name>
+  <summary>&lt;p&gt;There are some demonstration in this course, and for this &lt;b&gt;be very careful since hacking or penetration testing without permission is against the law, even port scanning is considered a violation (be careful of other information gathering as well). &lt;/b&gt;Along the way is explained how you may conduct&lt;b&gt; &lt;/b&gt;your experiment. Here we use an OS specifically for penetration testing for example Backtrack, Kali Linux, ArchAssault, and BackBox (it's up to you of what to use, you just need the right tool). We conduct testing on our owned PCs or virtual machines. We recommended for you learn a bit about computer network, learning programming also helps.&lt;br&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>50,51,34,54,58,55,59,56,60,57,53,35,36</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+</section>

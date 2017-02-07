@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="6" moduleid="4" modulename="survey" contextid="40">
+  <survey id="6">
+    <name>General Survey</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <template>4</template>
+    <questions>65,67,68</questions>
+    <days>0</days>
+    <timecreated>1447932623</timecreated>
+    <timemodified>1447932716</timemodified>
+    <answers>
+    </answers>
+    <analysis>
+    </analysis>
+  </survey>
+</activity>

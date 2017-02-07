@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="12" moduleid="55" modulename="lesson" contextid="98">
+  <lesson id="12">
+    <course>4</course>
+    <name>3. Scanning</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449852700</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="47">
+        <prevpageid>0</prevpageid>
+        <nextpageid>48</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1450160579</timecreated>
+        <timemodified>1450172434</timemodified>
+        <title>3.1 Port Scanning</title>
+        <contents>As the section describes port scanning it is to see what services runs on the host. A famous tool for this is NMAP &lt;a href="https://nmap.org/"&gt;&lt;cite class="_Rm"&gt;https://&lt;b&gt;nmap&lt;/b&gt;.org/&lt;/cite&gt;&lt;/a&gt;. On this experiment we would like to use Windows XP as our target, the older the OS the more the vulnerability, easier to penetrate, and better practice for beginners. If you need a subject for practicing try searching a prepared vulnerable OS on The Internet [&lt;i&gt;at your own risk, if you read the section of using Google for information gathering you should be aware that you can write &lt;u&gt;allintitle: index of xp&lt;/u&gt; to search for a Windows XP image, we recommend practicing with TinyXP because it's more safer]&lt;/i&gt;.&lt;br&gt;&lt;br&gt;Anyway back to the topic we install Windows XP on Virtual Box, connected using host only adapter (you may set this adapter at file &amp;gt; preference), and we turn of the firewall because our version is already patched. We then use NMAP to scan the Windows XP on IP address 192.168.56.101.&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;nmap --help (see help menu)&lt;/li&gt;&lt;li&gt;man nmap (see documentation for nmap)&lt;/li&gt;&lt;li&gt;nmap -sS 192.168.56.101.&lt;/li&gt;&lt;/ul&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/NMAP.png" alt="nmap -sS 192.168.56.101: returns port open on 134,139,445" width="589" height="268" style="vertical-align:middle; margin: 0 .5em;" class="img-responsive"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.1 Scanning With NMAP&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="112">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450160579</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="48">
+        <prevpageid>47</prevpageid>
+        <nextpageid>49</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1450161472</timecreated>
+        <timemodified>1450172503</timemodified>
+        <title>3.2 Vulnerability Scanning</title>
+        <contents>&lt;p&gt;Today there tools that would do vulnerability scanning for us when usually we manually find the vulnerability. Tools that we know are Nessus and Openvas, on our OS Openvas is installed as default.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;apt-get install openvas (if not yet installed)&lt;/li&gt;&lt;li&gt;openvas-setup (first setup, don't miss the password, username: admin. Search the web to change password if you lose it)&lt;/li&gt;&lt;li&gt;openvas-start (to start it)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Then open you web browser and go to url: https://127.0.0.1:9392.&lt;/li&gt;&lt;li&gt;Login, for starter just use the quick scan and insert the IP address of the target, here is 192.168.56.101.&lt;/li&gt;&lt;/ul&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Openvas.gif" alt="Openvas returns vulnerability on SMB" width="1366" height="768" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 3.2 Vunerability Scanning with Openvas&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="113">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450161472</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="118">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450161472</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Exercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="49">
+        <prevpageid>48</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>2</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1450161797</timecreated>
+        <timemodified>0</timemodified>
+        <title>Scanning</title>
+        <contents>&lt;p&gt;Which of these tools are often used for scanning?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="114">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1450161797</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;ul&gt;&lt;li&gt;NMAP&lt;/li&gt;&lt;li&gt;Nessus&lt;/li&gt;&lt;li&gt;Openvas&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</answer_text>
+            <response>&lt;p&gt;These are scanning tools&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="115">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1450161797</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;ul&gt;&lt;li&gt;Nslookup&lt;/li&gt;&lt;li&gt;Dig&lt;/li&gt;&lt;li&gt;Whois&lt;/li&gt;&lt;li&gt;Theharvester&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</answer_text>
+            <response>&lt;p&gt;These are information gathering tools.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

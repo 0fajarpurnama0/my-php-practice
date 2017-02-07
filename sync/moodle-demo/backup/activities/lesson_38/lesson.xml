@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="6" moduleid="38" modulename="lesson" contextid="81">
+  <lesson id="6">
+    <course>4</course>
+    <name>1. A tour around todays Network</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449300026</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="14">
+        <prevpageid>0</prevpageid>
+        <nextpageid>23</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449301453</timecreated>
+        <timemodified>1449767832</timemodified>
+        <title>1.1 Definition</title>
+        <contents>&lt;p style="text-align: center;"&gt;This contains two words "computer" and "network" is a connection of computer devices in order to exchange data with each others refer to Figure 1.1. It doesn't matter how it is connected or what it is connected, whether we are using wired like serial cable, UTP, fiber optic, and usb, or wireless for as long as it's connected it is a computer network. A computer network is not limited to private computers (PCs), computer devices such as gadgets, mobile phones, printers, and gaming consoles are counted into computer network. The place where these devices interact with each other is the computer network.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Illustration%20of%20Network.jpg" alt="PC, Laptops, gadgets, phones, connected to each other and to The Internet" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="360" width="630"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 1.1 Illustration of simple computer network [1]&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;iframe src="https://www.youtube.com/embed/r4yWWwpztg0" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;iframe src="https://www.youtube.com/embed/sSpR9N4G5RY" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;iframe src="https://www.youtube.com/embed/g7ZwAV7jOqk" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="28">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449301453</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="14">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449305789</timeseen>
+            <nextpageid>15</nextpageid>
+          </branch>
+          <branch id="22">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449541889</timeseen>
+            <nextpageid>15</nextpageid>
+          </branch>
+          <branch id="24">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449542113</timeseen>
+            <nextpageid>15</nextpageid>
+          </branch>
+        </branches>
+      </page>
+      <page id="23">
+        <prevpageid>14</prevpageid>
+        <nextpageid>15</nextpageid>
+        <qtype>2</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449542441</timecreated>
+        <timemodified>0</timemodified>
+        <title>Simple Definition</title>
+        <contents>&lt;p&gt;What is a computer network?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="54">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449542441</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;A computer network is a connection of computer devices in order to exchange data.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Correct!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="55">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449542441</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;A computer network is The Internet.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>The Internet is inside the category of computer network, but computer network is not just The Internet.&lt;br&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="24">
+        <prevpageid>15</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>2</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449542813</timecreated>
+        <timemodified>0</timemodified>
+        <title>The Internet</title>
+        <contents>&lt;p&gt;Which of these that can be found on the Internet?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="56">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449542813</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;ul&gt;&lt;li&gt;www.google.com&lt;/li&gt;&lt;li&gt;www.youtube.com&lt;/li&gt;&lt;li&gt;www.blogspot.com&lt;/li&gt;&lt;li&gt;www.wikipedia.org&lt;/li&gt;&lt;li&gt;www.facebook.com&lt;br&gt;&lt;/li&gt;&lt;li&gt;fajarpurnama.moodlecloud.com&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</answer_text>
+            <response>&lt;p&gt;These are on The Internet!&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="57">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449542813</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;ul&gt;&lt;li&gt;paint.exe&lt;br&gt;&lt;/li&gt;&lt;li&gt;notepad.exe&lt;br&gt;&lt;/li&gt;&lt;li&gt;mpc.exe&lt;/li&gt;&lt;li&gt;localhost&lt;/li&gt;&lt;li&gt;127.0.0.1&lt;/li&gt;&lt;li&gt;Microsoft Word Desktop &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</answer_text>
+            <response>&lt;p&gt;These are computer programs.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="15">
+        <prevpageid>23</prevpageid>
+        <nextpageid>24</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449305716</timecreated>
+        <timemodified>1449543726</timemodified>
+        <title>1.2 The Internet</title>
+        <contents>On the previous Figure 1.1 there are lots of device connected and one Earth like planet. The Earth like planet is a very large network and who knows how much is inside, so we just referred it to The Internet. The Internet contains connection of computer devices around the world. The Google server which was first in Standford University, now had many server distributed around the world. It also goes for Yahoo and MSN. Facebook is in United State, Line is in Japan, and if you're accessing this course through Moodle cloud, the head quarter (HQ) is in Australia. They made these sites publicly available on the network called The Internet. There are many stuffs available thanks to The Internet, following are examples:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Search Engines on Figure 1.2.&lt;/li&gt;&lt;/ul&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Google-Page.png" alt="Google Page" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="601" width="1365"&gt;&lt;br&gt;Figure 1.2 Google&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Wikis on Figure 1.3.&lt;/li&gt;&lt;/ul&gt;&lt;img src="@@PLUGINFILE@@/Wiki.png" alt="Wikipedia" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="678" width="1365"&gt;&lt;br&gt;&lt;div style="text-align: center;"&gt;Figure 1.3 Wikipedia&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Social Medias on Figure 1.4.&lt;/li&gt;&lt;/ul&gt;&lt;img src="@@PLUGINFILE@@/Facebook-Page.png" alt="Facebook" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="607" width="1365"&gt;&lt;br&gt;&lt;div style="text-align: center;"&gt;Figure 1.4 Facebook&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Online Videos on Figure 1.5.&lt;/li&gt;&lt;/ul&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Youtube-Page.png" alt="Youtube" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="604" width="1365"&gt;&lt;br&gt;Figure 1.5 Youtube&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Online Courses on Figure 1.6.&lt;/li&gt;&lt;/ul&gt;&lt;img src="@@PLUGINFILE@@/Courseera-Page.png" alt="Coursera" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="605" width="1365"&gt;&lt;br&gt;&lt;div style="text-align: center;"&gt;Figure 1.6 Coursera&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Online Games on Figure 1.7.&lt;/li&gt;&lt;/ul&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Dota2-War.jpg" alt="Dota2 War" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="900" width="1600"&gt;&lt;br&gt;Figure 1.7 Dota2&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Personal Websites (blogs) on Figure 1.8.&lt;/li&gt;&lt;/ul&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/MyWordpress.png" alt="0darkking0.wordpress.com" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="604" width="1365"&gt;&lt;br&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;Figure 1.8 Wordpress&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Emails and Chats on Figure 1.9.&lt;/li&gt;&lt;/ul&gt;&lt;img src="@@PLUGINFILE@@/Email.png" alt="Yahoo Mail" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="603" width="1365"&gt;&lt;br&gt;&lt;div style="text-align: center;"&gt;Figure 1.9 Yahoo Mail&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Cloud Services on Figure 1.10.&lt;/li&gt;&lt;/ul&gt;&lt;img src="@@PLUGINFILE@@/My-Cloud9.png" alt="Clout9" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="677" width="1365"&gt;&lt;br&gt;&lt;div style="text-align: center;"&gt;Figure 1.10 Cloud9&lt;br&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="29">
+            <jumpto>14</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449305716</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="30">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449305716</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Exercise</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="21">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449541885</timeseen>
+            <nextpageid>14</nextpageid>
+          </branch>
+          <branch id="23">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449541908</timeseen>
+            <nextpageid>-9</nextpageid>
+          </branch>
+          <branch id="25">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449542118</timeseen>
+            <nextpageid>22</nextpageid>
+          </branch>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

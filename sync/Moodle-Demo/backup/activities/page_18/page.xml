@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="18" modulename="page" contextid="54">
+  <page id="2">
+    <name>Course Outline</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <content>&lt;p&gt;&lt;/p&gt;&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Course
+Overview and Introduction&lt;/b&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;This topic would like to show you from afar what a computer network looks like. We won't show you deep inside because that's where things tends to get difficult, for example subnets, network traffic, protocols, etc. Simply we want to Introduce what is the computer network, how today's people rely on it now, and how is it even or how we are able to use it. From afar The Internet looks complicated as on Figure 1, but to explain it simply it's a connection of so many nodes consist of computer, servers, and other networking devices.&lt;br&gt;&lt;/p&gt;&lt;p style="margin-bottom: 0in; line-height: 150%; text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/internet-map.gif" alt="Millions of nodes connected" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="304" width="427"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="margin-bottom: 0in; line-height: 150%; text-align: center;"&gt;Figure 1. Internet Illustrated &lt;br&gt;&lt;/p&gt;&lt;p style="margin-bottom: 0in; line-height: 150%; text-align: center;"&gt;(https://www.andrew.cmu.edu/user/pcarboni/internet_history_site/)&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;br&gt;
+
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Learning
+Objective&lt;/b&gt;&lt;/p&gt;If some stranger asked you of what is The Internet and you can answer simply, then you got the gist of this course. If you can find the puzzle pieces and form the picture of The Internet puzzle, then you have fulfilled the learning objective of this course. For now we would like to list the following learning objective.&lt;br&gt;&lt;ol&gt;&lt;li&gt;Simulate Local Area Network (LAN).&lt;/li&gt;&lt;li&gt;Simulate Wide Area Network (WAN).&lt;/li&gt;&lt;li&gt;Common services of The Internet.&lt;/li&gt;&lt;li&gt;Design your simple cloud (Figure 2 for example).&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Sample-Cloud-Simulation.png" alt="Miniature Internet (My Version)" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="740" width="1017"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%; text-align: center;"&gt;Figure 2. Sample Network Simulation&lt;br&gt;
+
+&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;&lt;b&gt;Assessment
+and Measurement&lt;/b&gt;&lt;/p&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;It's
+up to you of how to do this course but it is recommended to do the
+following:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Read
+the contents. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Do the quizzes to enrich your understanding of the content. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Submit assignments, more of making a simulation.&lt;br&gt;&lt;/li&gt;&lt;li&gt;We never meant to place
+difficult materials so aim for perfect scores before proceeding to
+the next material since attempting a grade is unlimited. 
+&lt;/li&gt;&lt;/ol&gt;
+&lt;p style="margin-bottom: 0in; line-height: 150%" align="justify"&gt;Once
+again the top instructions are just our recommendation, do the course
+as you wish.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;If
+your overall score is below 50% you should complete more materials or
+aim for higher grade. &lt;br&gt;&lt;/li&gt;&lt;li&gt;If it's above you are ready to dive into
+computer programming world. &lt;br&gt;&lt;/li&gt;&lt;li&gt;If you got 100% then you should have no
+problem in adapting or learning new programming languages.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</content>
+    <contentformat>1</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:12:"printheading";s:1:"1";s:10:"printintro";s:1:"0";}</displayoptions>
+    <revision>4</revision>
+    <timemodified>1449811967</timemodified>
+  </page>
+</activity>

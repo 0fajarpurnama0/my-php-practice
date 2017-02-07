@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="9" moduleid="43" modulename="lesson" contextid="86">
+  <lesson id="9">
+    <course>4</course>
+    <name>4. Common Features on The Internet</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1449543244</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <pages>
+      <page id="28">
+        <prevpageid>0</prevpageid>
+        <nextpageid>29</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449543862</timecreated>
+        <timemodified>1449768972</timemodified>
+        <title>4.1 Dynamic Host Configuration Protocol (DHCP)</title>
+        <contents>&lt;p&gt;The DHCP service lets automatic IP configuration on a client. The client simply ask around the LAN whether a server can give the client an identity. As on the following figures the server may give an IP address, DNS, and default gateway, which depends on the server's and client's configuration. Below are figures of example DHCP on Core-Network.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/DHCP-1.png" alt="Discard manual assigned IP, and on service activate DHClient on clients." style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 4.1 Disabling manual IP and activate DHCP&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/DHCP-2.png" alt="DHCP configuration. See DHCP server on Linux" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 4.2 DHCP server configuration&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/DHCP-3.png" alt="A client obtains a configuration." style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 4.3 Client receives configuration&lt;/p&gt;&lt;p style="text-align: left;"&gt;On Figure 4.1 we activate DHCP and disable manual IP assigning on all clients. On Figure 4.2 we configure the DHCP server with pool of IP address from 192.168.0.127 - 192.168.0.254 and the DNS server is itself, the option router equivalent to the default gateway, and on FIgure 4.3 is the configuration obtained on a client. On the real PC most configuration are DHCP as default as on Figure 4.4.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/DHCP-4.png" alt="DHCP configuration on Network Manager" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="564" width="724"&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 4.4 Default DHCP setting for Network Manager&lt;br&gt;&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;&lt;iframe src="https://www.youtube.com/embed/7QjU5eclZv4" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="64">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543862</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="27">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449746096</timeseen>
+            <nextpageid>29</nextpageid>
+          </branch>
+        </branches>
+      </page>
+      <page id="29">
+        <prevpageid>28</prevpageid>
+        <nextpageid>30</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449543909</timecreated>
+        <timemodified>1449768721</timemodified>
+        <title>4.2 Domain Name Service (DNS)</title>
+        <contents>&lt;p&gt;A DNS server may contain list of domain names of addresses. For example I have a web server on 192.168.100.253, without DNS I have to type http://192.168.100.253 to access the web page through my browser. For me it's too hard to remember, instead I'd to give my server a domain name or register a domain name to my server. Say I would like to give www.myfakegoogle.com to 192.168.100.253. Whenever I write www.myfakegoogle.com will correspond to 192.168.100.253. DNS translated an IP address to domain name and vice versa.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Core-DNS1.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 4.5 Dig the domain name&lt;br&gt;&lt;/p&gt;&lt;p&gt;I tried to simulate DNS on Core-Network but cannot find the feature. So I have to manually define a DNS server on the simulator by installing and connecting a real DNS server on my machine. I used bind9, I'm not familiar with the configuration, so I skip the explanation here and show that I have configured 192.168.100.253 as www.myfakegoogle.com on Figure 4.5.&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Core-DNS2.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 4.6 Try DNS on Core-Network&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;I made a DNS server on the Core-Network using the userdefined feature (connecting Bind9 to it) and successfully ping using the domain name on Figure 4.6. If you look closely it's like a picture of a mini version of The Internet considering a PC wants to connect to www.google.com (this is my mini version of The Internet). If we install a web browser on www.myfakegoogle.com then we access it on the browser. To check a domain name on real network use dig or nslookup.&lt;br&gt;&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;&lt;iframe src="https://www.youtube.com/embed/xm5e5Wgnu90" allowfullscreen="" frameborder="0" height="315" width="560"&gt;&lt;/iframe&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="65">
+            <jumpto>28</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543909</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="66">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543909</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="28">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449746106</timeseen>
+            <nextpageid>30</nextpageid>
+          </branch>
+        </branches>
+      </page>
+      <page id="30">
+        <prevpageid>29</prevpageid>
+        <nextpageid>34</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1449543971</timecreated>
+        <timemodified>1449746079</timemodified>
+        <title>4.3 Web Server </title>
+        <contents>&lt;p&gt;A web page uses Hyper Text Transfer Protocol to display the page on the browser. To be honest it's very wide and the only thing we can show you here is this example web page use to develop this content. Installing a web server on a machine allows information exchange using the web browser. A free web browser is Apache2, for beginners may use bundles like XAMPP or LAMPP. Lastly on section 4, if we combine everything up till now, we can create a tiny version of The Internet.&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Apache2.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 4.7 Apache2&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;img src="@@PLUGINFILE@@/Apache22.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="768" width="1366"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;Figure 4.8 This Page&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="67">
+            <jumpto>29</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543971</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="68">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449543971</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+          <branch id="29">
+            <userid>2</userid>
+            <retry>0</retry>
+            <flag>0</flag>
+            <timeseen>1449746114</timeseen>
+            <nextpageid>34</nextpageid>
+          </branch>
+        </branches>
+      </page>
+      <page id="34">
+        <prevpageid>30</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>5</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1449736666</timecreated>
+        <timemodified>1449736701</timemodified>
+        <title>Common Services on The Internet</title>
+        <contents>&lt;p&gt;Match the following services:&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="77">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1449736666</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Correct!&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="78">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449736666</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Try Again!&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="79">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449736666</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Gives a domain name to an address.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>DNS</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="80">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449736666</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Assigns automatic network configuration.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>DHCP</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="81">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1449736666</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Common protocol used to display web page.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>HTTP</response>
+            <answerformat>1</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
